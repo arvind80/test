@@ -1,0 +1,19 @@
+<section class="votes">
+  <h3>Votes</h3>
+
+  <div class="voting_widget">
+    <%= voting_widget voteable %>
+  </div>
+
+  <div class="voting_metadata">
+    <%= link_to pluralize(voteable.votes_up.size, "person"), "#liking-users",
+    "data-toggle" => "modal", "data-backdrop" => "true", "data-keyboard" => "true", id: 'votes-up' %> liked this.
+
+    <%= modal_for "Liking Users", "votes/voters", votes: voteable.votes_up %>
+
+    <%= link_to pluralize(voteable.votes_down.size, "person"), "#not-liking-users",
+    "data-toggle" => "modal", "data-backdrop" => "true", "data-keyboard" => "true", id: 'votes-down' %> didn't like this.
+
+    <%= modal_for "Not Liking Users", "votes/voters", votes: voteable.votes_down %>
+  </div>
+</section>

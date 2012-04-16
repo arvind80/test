@@ -1,0 +1,54 @@
+# Options FollowSymLinks
+# RewriteOptions MaxRedirects=50
+
+RewriteEngine On
+
+RewriteBase /
+RewriteRule ^test(/)?$ installs/test_htaccess.php [nc]
+
+#Give the sub directory name of SSL before ecom
+RewriteCond %{SERVER_PORT} 443
+RewriteRule ^eaction/([^/]*)/([^/]*)/([^/]*)/([^/]*)(/)?$       ecom/index.php?action=$1&mode=$2&$3=$4 [nc]
+RewriteCond %{SERVER_PORT} 443
+RewriteRule ^eaction/([^/]*)/([^/]*)(/)?$	ecom/index.php?action=$1&mode=$2 [nc]
+RewriteCond %{SERVER_PORT} 443
+RewriteRule ^eaction/([^/]*)/(/)?$	ecom/index.php?action=$1 [nc]
+
+
+RewriteCond %{SERVER_PORT} 80
+#Give the sub directory name index.php 
+RewriteRule ^index(/)  index.php
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^eaction/([^/]*)/([^/]*)/([^/]*)/([^/]*)(/)?$       ecom/index.php?action=$1&mode=$2&$3=$4 [nc]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^eaction/([^/]*)/([^/]*)(/)?$                       ecom/index.php?action=$1&mode=$2 [nc]
+RewriteRule ^department/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)(/)?$ ecom/index.php?action=ecom.details&mode=$1&$2=$3&$4=$5 [nc]
+RewriteRule ^department/([^/]*)/([^/]*)/([^/]*)(/)?$ ecom/index.php?action=ecom.details&mode=$1&$2=$3 [nc]
+RewriteRule ^department/([^/]*)(/)?$                 ecom/index.php?action=ecom.details&mode=$1 [nc]
+
+RewriteRule ^product/([^/]*)/([^/]*)/([^/]*)(/)?$ ecom/index.php?action=ecom.pdetails&mode=$1&$2=$3 [nc]
+RewriteRule ^product/([^/]*)(/)?$                 ecom/index.php?action=ecom.pdetails&mode=$1 [nc]
+RewriteRule ^content/([^/]*)(/)?$                 ecom/index.php?action=ecom.cdetails&mode=$1 [nc]
+
+RewriteRule ([^/]*)/action/([^/]*)/([^/]*)/([^/]*)/([^/]*)(/)?$ $1/index.php?action=$2&mode=$3&$4=$5 [nc]
+RewriteRule ([^/]*)/action/([^/]*)/([^/]*)(/)?$                 $1/index.php?action=$2&mode=$3 [nc]
+RewriteRule ([^/]*)/action/([^/]*)(/)?$                         $1/index.php?action=$2 [nc]
+RewriteRule ^action/([^/]*)/([^/]*)(/)?$                        index.php?action=$1&mode=$2 [nc]
+RewriteRule ^sid/([^/]*)(/)?$                                   index.php?sid=$1 [nc]
+
+## Error Handling ##
+#RewriteRule ^error/([^/]*)(/)?$ index.php?action=error&mode=$1 [nc]
+
+
+# Content Section #
+#RewriteRule ^([^/]*)(/)?$ index.php?action=cms&mode=$1 [nc]
+
+RewriteRule ^accessibility(/)?$ index.php?action=cms&mode=accessibility
+RewriteRule ^terms(/)?$         index.php?action=cms&mode=conditions
+RewriteRule ^privacy(/)?$       index.php?action=cms&mode=privacy
+RewriteRule ^memberpoints(/)?$  index.php?action=cms&mode=member_points
+
+RewriteRule ^contactus(/)?$ index.php?action=contactus
+RewriteRule ^sitemap(/)?$   index.php?action=sitemap
+
+ErrorDocument 404 /index.php?action=error&mode=content

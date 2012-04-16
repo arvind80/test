@@ -1,0 +1,395 @@
+CakePHP
+
+When the css does not shows up after installing cakephp on Ubuntu. The following steps need to be followed:
+
+Step 1.
+
+cd /etc/apache2/mods-enabled
+touch rewrite.load
+gedit rewrite.load
+LoadModule rewrite_module /usr/lib/apache2/modules/mod_rewrite.so
+
+Step 2.
+
+edit /etc/apache2/sites-available/default
+Find the following
+Options Indexes FollowSymLinks MultiViews
+AllowOverride None
+Order allow,deny
+allow from all
+and change it to
+
+Options Indexes FollowSymLinks MultiViews
+AllowOverride All
+Order allow,deny
+allow from all
+
+Step 3.
+
+/
+/app
+/app/webroot
+
+(The .htaccess files are located at the above three paths in cakephp folder)
+
+/* Example contents for .htaccess file */
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+    RewriteBase /cakephp   /* This line needs to be included */
+ </IfModule>
+
+Step 4.
+
+sudo a2enmod rewrite (To check if mod_rewrite is on)
+
+
+Step 5.
+
+sudo /etc/init.d/apache2 restart (To restart Apache)
+
+
+
+Create custom Cakephp Template
+
+http://my-cakephp.blogspot.com/2009/11/how-to-create-custom-cakephp-template.html
+
+
+Obsolete $cakeDebug:
+echo $this->element('sql_dump'); (Use it instead)
+http://nuts-and-bolts-of-cakephp.com/2009/12/22/bye-bye-cakedebug/
+
+
+
+
+Google Books (Cakephp)
+
+http://books.google.co.in/books?id=3S0O6Egf-_4C&printsec=frontcover&dq=cakephp+e+books&hl=en&ei=5oJsTcitM47-vQOXmq3TBA&sa=X&oi=book_result&ct=book-thumbnail&resnum=1&ved=0CEcQ6wEwAA#v=onepage&q&f=false
+
+
+Important Links
+
+To Enable Use Of Apache Htaccess Files : -
+
+https://help.ubuntu.com/community/EnablingUseOfApacheHtaccessFiles
+http://drupal.org/node/134439
+http://articles.sitepoint.com/article/guide-url-rewriting/1
+
+
+
+
+Install Unrar
+
+sudo apt-get install unrar-free
+
+
+
+Google Map by Address
+
+http://www.howtogetdata.com/javascript-customization/how-to-show-google-map-by-address
+
+
+
+CURL Installation
+
+sudo apt-get install php5-curl
+sudo /etc/init.d/apache2 restart
+
+
+
+MySQL Joins
+
+http://dev.mysql.com/doc/refman/5.0/en/nested-join-optimization.html (Nested Joins)
+
+
+
+MySQL Replace
+
+update TABLE_NAME set FIELD_NAME = replace(FIELD_NAME, ‘find this string’, ‘replace found string with this string’);
+update client_table set company_name = replace(company_name, ‘Old Company’, ‘New Company’)
+The above statement will replace all instances of ‘Old Company’ to ‘New Company’ in the field of company_name of client_table table.
+Another example:
+SELECT REPLACE(‘www.mysql.com’, ‘w’, ‘Ww’);
+Above statement will return ‘WwWwWw.mysql.com’ as result.
+
+
+
+
+
+
+Installing Pear:
+
+sudo apt-get install php-pear
+
+
+(Pear Installation)
+http://pear.php.net/manual/en/installation.getting.php
+
+
+(Check Pear Installation)
+http://pear.php.net/manual/en/installation.checking.php
+
+
+(Request.php) http://pear.php.net/package/HTTP_Request/docs/latest/HTTP_Request/_HTTP_Request-1.4.4---Request.php.html
+
+(Request2)
+http://pear.php.net/manual/en/package.http.http-request2.request.php
+
+https://help.ubuntu.com/community/PhpPear
+http://stackoverflow.com/questions/5326475/how-do-i-check-to-see-if-pear-is-installed-on-my-server-or-not
+
+
+To upload database to MySQL server using the mysql program 
+
+At your command-line prompt, issue this command: 
+shell> mysql -u root -p
+This command connects to the server using the MySQL root account to make sure that you'll have permission to create the world database. The --p option tells mysql to prompt you for the root password. Enter the password when prompted. (Remember that the MySQL root account is not the same as the operating system root account and probably will have a different password.) 
+Create the world database and select it as the default database: 
+In the mysql program, issue the following statements: 
+mysql> CREATE DATABASE world;
+mysql> USE world;
+Load the contents of world.sql into the world database 
+Issue a SOURCE command to tell mysql to read and process the contents of world.sql: 
+mysql> SOURCE world.sql;
+You'll see quite a bit of output as mysql reads queries from the world.sql file and executes them. 
+
+
+
+
+
+Shoppify:
+
+http://cheat.markdunkley.com/
+
+http://wiki.shopify.com/Collections
+
+
+Changes done to following pages:
+
+https://the-gathering-goddess.myshopify.com/admin/themes/1453222#templates/product.liquid
+
+https://the-gathering-goddess.myshopify.com/admin/themes/1453222#assets/stylesheet.css.liquid
+
+
+Wordpress (slider):
+
+http://wordpress.org/extend/plugins/wp-featured-content-slider/
+
+http://webdesignerwall.com/tutorials/building-custom-wordpress-theme
+
+
+
+Jquery Tips:
+
+http://www.tvidesign.co.uk/blog/improve-your-jquery-25-excellent-tips.aspx
+
+
+
+Javascript Functions
+
+1.
+<script language="javascript">
+/* Javascript to send the selected value of a checkbox */
+	function GetVal()
+	{
+		var a = null;
+		var f = document.forms[0];
+		var e = f.elements["selservice"];
+		for (var i=0; i < e.length; i++)
+		{
+			if (e[i].checked)
+			{
+				a = e[i].value;
+				break;
+			}
+		}
+		return a;
+	}
+</script>
+
+<form><input type="radio"  name="selservice" value="03">Category #1(UPS 1 Day Ground) - NJ, DE, MD, CT</td></form>
+
+
+
+
+
+2. Timer
+
+function timeMsg()
+{
+var t=setTimeout("alertMsg()",3000);
+}
+
+
+
+3. Javascript to dynamically create/remove input boxes
+
+http://javascript.internet.com/forms/adding-html-controls.html
+
+<?php 
+
+if((isset($_POST['submit']) == "submit") && ($_POST['submit']!=""))
+{
+	echo "<pre>";
+print_r($_POST);
+echo "</pre>";
+}
+
+
+?>
+<html>
+	<head>
+		<title>test</title>
+		<script type="text/javascript">
+var arrInput = new Array(0);
+  var arrInputValue = new Array(0);
+
+function addInput() {
+  arrInput.push(arrInput.length);
+  arrInputValue.push("");
+  display();
+}
+
+function display() {
+  document.getElementById('parah').innerHTML="";
+  for (intI=0;intI<arrInput.length;intI++) {
+    document.getElementById('parah').innerHTML+=createInput(arrInput[intI], arrInputValue[intI]);
+  }
+}
+
+function saveValue(intId,strValue) {
+  arrInputValue[intId]=strValue;
+}  
+
+function createInput(id,value) {
+  /*return "<input type='text' name='test[]' id='test "+ id +"' onChange='javascript:saveValue("+ id +",this.value)' value='"+ value +"'><br>";*/
+  return "<select name='test[]'><option value='0'>Select</option><option value='A'>A</option><option value='B'>B</option><option value='C'>C</option></select>";
+}
+
+function deleteInput() {
+  if (arrInput.length > 0) { 
+     arrInput.pop(); 
+     arrInputValue.pop();
+  }
+  display(); 
+}
+</script>
+	</head>
+<body>	
+	
+<form name="frm" method="post" action="">
+<p id="parah">Click below to dynamically create/remove input boxes in this field</p>
+
+<a href="javascript:addInput()">Add more input field(s)</a><br>
+<a href="javascript:deleteInput()">Remove field(s)</a>
+<input type="submit" name="submit" value="submit">
+</form>
+</body>	
+</html>
+
+
+4. Javascript to dynamically create input boxes
+
+http://www.tutorialsscripts.com/free-java-scripts/dom/html-element/create-dynamic-multiple/add-more-text-box.php
+
+<script>
+function add_more_text_box(parent_id, child_name, child_id)
+{
+  var myTable=document.getElementById(parent_id);
+  var oDiv, oInput;
+  oDiv = document.createElement('div');
+  oDiv.setAttribute('id', 'Name');
+  myTable.appendChild(oDiv);
+
+  oInput = document.createElement('input');
+  oInput.setAttribute('type', 'text');
+  oInput.setAttribute('name', child_name);
+  oInput.setAttribute('id', child_id);
+  oDiv.appendChild(oInput);
+}
+var child_id = 1;
+function child()
+{
+  return child_id++;
+}
+</script>
+
+<form id="add_more" name="add_more" method="post" action="">
+<div id="add_more_div">
+	<div><input type="text" id="add_more" name="add_more[]" ></div>
+	<div><a href="javascript:;" onclick="return add_more_text_box('add_more_div','add_more[]',child());">add more</a></div>
+	<div><input type="submit" name="submit" value="submit"></div>
+</div>
+</form> 
+
+
+
+5. JQuery
+http://arshaw.com/fullcalendar/ (Add Task Calendar)
+
+
+
+
+PHP Functions
+
+(i) Left Padding Function:
+echo str_pad($input, 10,"-=", STR_PAD_LEFT);
+// produces "-=-=-Alien"
+
+
+(ii)
+<?php
+/*  */
+function convert($date)
+{
+     $usdate = $date;
+         $xpdate = explode("/",$usdate);
+         $mysqldate = $xpdate[2]."-".$xpdate[0]."-".$xpdate[1];
+         return $mysqldate;
+}
+
+$inputdate = "07/15/2011";
+echo convert($inputdate);
+?>
+
+(iii)
+
+
+http://www.satya-weblog.com/2007/05/php-file-upload-and-download-script.html
+
+http://www.proto-garage.com/blog/php/how-to-make-a-file-download-with-counter
+
+<a href="docdownload.php?fn=abc.doc">ABC</a>
+<?php
+/* Document Download Function */
+
+$fn = $_REQUEST['fn'];
+$file = 'docs/'.$fn;
+header("Expires: 0");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+//Rest of the code helps to push the file for download to the user
+header('Content-type: application/force-download');
+header('Content-Transfer-Encoding: Binary');
+header('Content-disposition: attachment;filename="'. basename($file) .'"');
+header('Content-length: '. filesize($file) );
+readfile( $file );
+// Exit script. So that no useless data is output-ed.
+exit;
+?>
+
+
+
+
+CSS
+
+td.file_lnk a { 
+color:#1E85C5; 
+text-decoration:none; 
+} 
+td.file_lnk a:hover { 
+text-decoration:underline; 
+}

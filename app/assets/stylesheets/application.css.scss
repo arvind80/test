@@ -1,0 +1,262 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require bootstrap
+
+ *= require_self
+
+ *= require header
+
+ *= require recipes
+ *= require user
+ *= require actions
+ *= require comments
+
+ *= require dashboard
+*/
+
+html {
+  background:url('/assets/background.gif') #efeddd;
+}
+
+body {
+  background:none;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -63px;
+}
+
+.push {
+  height: 80px;
+}
+
+/* footer */
+footer {
+  padding:12px 20px;
+  background:#FAF9F0;
+  border-top:1px solid #C6C6AC;
+  height:38px;
+  position:relative;
+}
+
+/* main */
+#main {
+  width:960px;
+  margin:0 auto;
+  margin-bottom:20px;
+  padding:0 20px;
+}
+
+#main #main_container {
+  width:700px;
+  background:white;
+  float:left;
+
+  -moz-border-radius:3px;
+  border-radius:3px;
+
+  border:1px solid #C6C6AC;
+}
+
+#main #sidebar_container {
+  width:218px;
+  margin-left:40px;
+  float:left;
+}
+
+#main_container_wrapper {
+  width:700px;
+  float:left;
+}
+
+/* segment */
+.segment {
+  padding:12px 20px;
+  width:660px;
+  border-bottom:1px solid #E5E6CF;
+}
+
+.segment:last-child {
+  border-bottom:none;
+}
+
+/* header */
+h2 {
+  color:#3D3D3D;
+}
+
+h3 {
+  font-family:'georgia';
+  font-weight:normal;
+  color:#B4B4B4;
+  font-size:16px;
+}
+
+.clearfix:before,
+.clearfix:after, .segment:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after, .segment:after {clear: both;}
+.clearfix, .segment {zoom: 1;} /* IE < 8 */
+
+/* abbrs fixed for use with timeago or other uses*/
+abbr {
+  border-bottom: none;
+  cursor: inherit;
+  font-size: inherit;
+  text-transform: none;
+}
+
+#meta {
+  width:700px;
+  margin-top:20px;
+  float:left;
+  clear:left;
+}
+
+/* search */
+.search {
+  float:right;
+}
+
+.search form {
+  margin:0;
+}
+
+.registration_items {
+  float:right;
+  text-align:right;
+}
+
+/* points */
+.points, .points a {
+  outline:none;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+
+  -moz-box-shadow: inset 0px 0px 0px rgba(0,0,0,0);
+  -webkit-box-shadow: inset 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: inset 0px 0px 0px rgba(0,0,0,0);
+}
+
+.points a, #user_actions > li.points a {
+  background:#deb500;
+  border-top:none;
+
+  -moz-box-shadow: inset 0px 0px 5px #b67c00;
+  -webkit-box-shadow: inset 0px 0px 5px #b67c00;
+  box-shadow: inset 0px 0px 5px #b67c00;
+
+  font-weight:bold;
+  color:#5c4a00;
+
+  text-shadow:0 1px 0 rgba(255,255,255,0.5);
+  padding:6px 12px;
+}
+
+.user_points a {
+  -moz-border-radius:2px;
+  border-radius:2px;
+  text-decoration:none;
+}
+
+/* notifications */
+#notifications {
+  width:100%;
+  margin-bottom:25px;
+}
+
+.notification {
+  padding:9px 20px;
+  background:white;
+  border-bottom:1px solid #C6C6AC;
+}
+
+.notification p {
+  margin:0;
+  padding:0;
+  line-height:1.5em;
+}
+
+/* success */
+.notification.success {
+  background:#F8FFDF;
+}
+
+.notification.success, .notification.success .close {
+  color:#243500;
+}
+
+/* warning */
+.notification.warning {
+  background:#FDFBDE;
+}
+
+.notification.warning, .notification.warning .close {
+  color:#333100;
+}
+
+/* voting */
+.voting_widget {
+  float:left;
+  margin-bottom:5px;
+  display:block;
+  width:100%;
+}
+
+.voting_widget a.btn {
+  float:left;
+}
+
+.voting_widget div.voteable-score {
+  float:left;
+  padding:4px 10px;
+  line-height:18px;
+}
+
+.voting_metadata {
+  clear:left;
+  display:block;
+}
+
+/* forms */
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+input, textarea {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+/* images */
+img {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  overflow: hidden;
+}
+
+/* search */
+form#new_search {
+  float:right;
+  margin-bottom:0;
+}
+
+span.created_at {
+  opacity:0.5;
+}

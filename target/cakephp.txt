@@ -1,0 +1,2 @@
+C:\xampp\htdocs\sample\cake\console>cake -app c:/xampp/htdocs/sample/app -workin
+g c:/xampp/htdocs/sample/app bake all

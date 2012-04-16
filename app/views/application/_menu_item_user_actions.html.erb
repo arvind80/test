@@ -1,0 +1,15 @@
+<div class="dropdown user_actions">
+  <div class="user_profile_menu">
+    <%= link_to image_tag("http://placehold.it/100x100/"), "#", :class => 'avatar' %>
+    <%= link_to "Edit my profile", "#", :class => 'edit_profile' %>
+  </div>
+
+  <ul class="last">
+    <li><%= link_to pluralize(current_user.recipes.count, "recipe"), username_path(current_user) %></li>
+    <li><%= link_to "#{current_user.followees_count} following", followees_user_path(current_user) %></li>
+    <li><%= link_to pluralize(current_user.followers_count, "follower"), followers_user_path(current_user) %></li>
+    <li><%= link_to "Settings", edit_user_registration_path %></li>
+
+    <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete, :class => 'btn' %></li>
+  </ul>
+</div>

@@ -1,0 +1,30 @@
+<header class="clearfix">
+   <ul id="navigation" class="navigation">
+    <li class="drop">
+      <%= link_to "Recipes", recipes_path, :class => 'drop' %>
+      <%= render "menu_item_recipes" %>
+    </li>
+    <li class="drop">
+      <%= link_to "Cookbooks", cookbooks_path, :class => 'drop' %>
+      <%= render "menu_item_cookbooks" %>
+    </li>
+    <li class="drop">
+      <%= link_to "People", users_path, :class => 'drop' %>
+      <%= render "menu_item_users" %>
+    </li>
+  </ul>
+
+  <% if user_signed_in? %>
+  <ul id="user_actions" class="navigation">
+    <li class="points"><%= link_to current_user.points, "#", data: { last_points_awarded_at: current_user.last_points_awarded_at.to_i } %></li>
+    <li class="drop">
+      <%= link_to display_name(current_user), dashboard_path %>
+      <%= render "menu_item_user_actions" %>
+    </li>
+  </ul>
+  <% else %>
+  <ul id="user_actions" class="navigation">
+    <li><%= link_to "Sign in", new_user_session_path %></li>
+  </ul>
+  <% end %>
+</header>

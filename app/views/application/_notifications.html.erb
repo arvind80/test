@@ -1,0 +1,6 @@
+<% if notice || alert %>
+<div class="notification <%= notice ? 'success' : 'warning' %>">
+  <a class="close" data-dismiss="alert">&times;</a>
+  <p><%= escape_javascript(notice || alert).html_safe %></p>
+</div>
+<% end %>

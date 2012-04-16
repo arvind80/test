@@ -1,0 +1,4 @@
+CREATE PROCEDURE comment_fetch()
+BEGIN
+  SELECT 'Number of records: ', count(*) from comment;
+END;

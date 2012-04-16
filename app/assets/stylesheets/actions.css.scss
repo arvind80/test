@@ -1,0 +1,42 @@
+#actions {
+  list-style:none;
+  margin:0;
+  padding:0;
+  float:left;
+  clear:left;
+  width:100%;
+}
+
+#actions li {
+  margin:0 0 10px 0;
+  padding:0;
+  float:left;
+  clear:left;
+  width:100%;
+}
+
+.action_details {
+  float: left;
+}
+
+.action_meta {
+  float:left;
+  clear:left;
+  opacity:0.5;
+}
+
+/* sidebar */
+ul.activity {
+  list-style:none;
+  margin:0;
+}
+
+ul.activity li {
+  margin-bottom:10px;
+  color:#9EA67D;
+  text-shadow:0 1px 0 white;
+}
+
+ul.activity li a {
+  color:#5F532B;
+}

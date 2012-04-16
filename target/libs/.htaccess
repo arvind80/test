@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteOptions MaxRedirects=50
+RewriteEngine on
+RewriteRule ^users/([^/]+)/([^/]+)  /php_mvc/app/controllers/users_controller.php?action=$1&id=$2 [NC]
+RewriteRule ^users/([^/]+)  /php_mvc/app/controllers/users_controller.php?action=$1 [NC]
+RewriteRule ^users  /php_mvc/app/controllers/users_controller.php [NC]
+
+ErrorDocument 404  /php_mvc/app/views/errors/404.php

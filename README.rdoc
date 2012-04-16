@@ -1,0 +1,91 @@
+== Welcome to Recipes
+
+This is an example text for 'Welcome to Recipes'
+
+== Issues/Bugs
+
+Go to (https://github.com/jpsilvashy/recipes/issues)
+
+== TODO
+
+ * integrate pointing system
+ * upload photos for resources
+ * define users roles and abilities
+ * customizable criteria of search field
+ * a user can post a comment on a recipe using facebook (like, unlike, post comment)
+ * I18n
+ * optimization, caching, AJAX, benchmarking
+ * refactoring
+ * oatuh (facebook, twitter, google)
+ * newsletter subscriptions
+ * become pro - link to linkedin profile
+    publish free | paid secret recipes
+      owner gets paid every time another user buys the recipe and a commission goes to "recipes"
+ * Developer API
+ * UX/UI
+    list of recipes/cookbooks
+      sort by
+        occurrence
+        recent(created date)
+        rating
+        name
+        category
+        user(publisher or owner)
+        origin(location)
+      search (with autocomplete) & customizable criteria (search recipe, cookbook, user, category, occasion, diet, origin)
+      endless page | pagination
+
+== Notes
+
+=== Recipes
+  categories
+    Appetizer
+    Misc
+    Beverage
+    Reminiscent
+    Bread, Cake, & Pie
+    Rice, Potato, & Pasta
+    Breakfast
+    Salad
+    Candy
+    Sandwich
+    Cookie
+    Seasonal & Holiday
+    Dessert
+    Side Dish
+    Household Helper
+    Soup
+    International
+    Spice, Herb, & Sauce
+    Main Course
+    Vegetarian
+
+  occasion
+    Christmas
+    Dinner Party
+    Hanukkah
+    New Year's
+    Thanksgiving
+
+  diet
+    Diabetic-Friendly
+    Gluten-Free
+    Low Fat
+    Vegetarian
+
+  origin
+    Chinese
+    French
+    German
+    Indian
+    Italian
+    Mexican
+    Japanese
+    Southern
+    Spanish
+    Thai
+    Venezuelan
+    Colombian
+    Peruvian
+    Argentinian
+    Brazilian

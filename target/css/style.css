@@ -1,0 +1,133 @@
+*{margin:0; padding:0}
+a{outline:none; text-decoration:none;}
+img{border:none;}
+body{background-color:#FFF;}
+
+
+
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; font-size: 9px;}
+
+
+
+/* CSS Document */
+
+
+
+.search-background {
+		display: none;
+		font-size: 13px;
+		font-weight: bold;
+		height:160px;
+		position: absolute;
+		padding-top:140px;
+		-moz-border-radius: 6px; 
+		-webkit-border-radius: 6px;
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		text-align: center;
+		opacity:0.5;filter: alpha(opacity=50) ;
+		text-decoration: none;
+		width: 600px;
+	}
+	
+.search-background {
+	
+		text-shadow: #fff 0px 0px 20px;
+	}
+
+search-background label{	
+
+	border:solid #66FF00 1px;
+}	
+
+#paging_button ul{ width: 600px; padding:0px; margin:8px;}
+
+#paging_button ul li { 
+		
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		float:left; height:20px; list-style-image:none; 
+		list-style-type:none; font-weight:bold; border:solid #CCCCCC 1px;
+		margin:3px; cursor:pointer}
+
+li:hover{ color: #CC0000; cursor: pointer; }
+
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	/*background-color: #CDCDCD;*/
+	border:1px solid #333;
+	margin:10px 0pt 15px;
+	font-size: 10pt;
+	width: 900px;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+
+
+table.tablesorter #row2 tbody td {
+width:60px;
+}
+table#row .row1 tbody td {
+width:60px;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+.mail_div
+{
+background: none repeat scroll 0 0 #E5E3E1;display:none; border: 1px solid #ADA9A5; padding: 2px 2px 2px 5px;width:217px;font-weight:normal;font-size:12px;
+
+}
+#ajaxdiv .error{ width:100%; background:#FEF1ED;border:1px solid #CC0000;text-align:center;color:red; font-weight:bold;font-size:14px;}
+.row2 table tr td {width:55px;}
+ .msgdiv{  background:#FEF1ED;text-align:center;border:1px solid #CC0000;text-align:center;color:red; font-weight:bold;font-size:14px;
+display:none;float:left;height:100px; width:300px; position:relative;top:300px;left:440px; z-index:50;"}
+
+.popup{background:#333; width:100%; display:none; height:100%; position:fixed; z-index:11; opacity:0.7;}
+.pop_form{display:none;float:left;background:#fff; width:300px; position:relative;top:300px;left:440px; z-index:50;border:solid 1px #000;}
+#pop_form .close_dd{  width:30px; height:30px; position:absolute; top:-26px;right:-27px;}
+#pop_form .close_dd img{  width:30px; height:30px; border:none;}
+.editmsg{float:center;padding:5px 0px 0px 0px;font-weight:bold;font-size:12px;color:#F7678B;}
+/* Vertical Tabs
+----------------------------------*/
+
+

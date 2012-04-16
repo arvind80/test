@@ -1,0 +1,7 @@
+<% votes.each do |vote| %>
+  <blockquote>
+    <small>
+      <%= if vote.voter.nil? then "An anonymous user" else link_to_user vote.voter end %>
+    </small>
+  </blockquote>
+<% end %>

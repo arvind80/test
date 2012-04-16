@@ -1,0 +1,8 @@
+<div class="segment">
+  <h2>Search</h2>
+  <h3>We found <%= pluralize(@search.results.count, "thing") %>, perhaps try an <%= link_to "advanced search", new_search_path %>?</h3>
+</div>
+
+<div class="segment">
+  <%= render 'recipes', :recipes => @search.results %>
+</div>

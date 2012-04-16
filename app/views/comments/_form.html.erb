@@ -1,0 +1,9 @@
+<%= simple_form_for [comentable, comentable.comments.build], :html => { :class => 'form-inline' } do |f| -%>
+  <% field_set_tag 'Leave a Comment' do -%>
+    <%= f.input :content, hint: "Write a comment...", as: 'text', input_html: { rows: 3 }  %>
+
+    <div class="actions">
+      <%= f.button :submit, class: 'primary' %>
+    </div>
+  <% end -%>
+<% end -%>

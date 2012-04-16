@@ -1,0 +1,34 @@
+<div class="segment user_header">
+  <h2><%= display_name(@user) %></h2>
+
+  <h3>
+    <%= link_to pluralize(@user.recipes.count, "recipe"), username_path(@user) %>
+    <%= link_to "#{@user.followees_count} following", followees_user_path(@user) %>
+    <%= link_to pluralize(@user.followers_count, "follower"), followers_user_path(@user) %>
+  </h3>
+
+  <div class="user_points points">
+    <%= link_to pluralize(@user.points, "point"), "#" %>
+  </div>
+
+  <%= follow_link(@user) %>
+</div>
+
+<div class="segment">
+  <h3>User recipes</h3>
+  <ul id="recipes">
+    <%= render 'recipes', :recipes => @user.recipes %>
+  </ul>
+</div>
+
+<div class="segment">
+  <h3>Activity</h3>
+  <ul id="actions">
+  <% @user.activity.each do |action| %>
+    <li>
+      <span class='action_details'><%= action_for(action) %></span>
+      <span class='action_meta'><%= timeago(action.created_at) %></span>
+    </li>
+  <% end %>
+  </ul>
+</div>

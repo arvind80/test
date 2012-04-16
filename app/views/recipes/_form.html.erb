@@ -1,0 +1,45 @@
+<div class="segment">
+<%= simple_form_for(@recipe, :html => { :multipart => true } ) do |f| %>
+  <%= render :partial => 'simple_form_errors', :locals => {:f => f} %>
+
+  <fieldset>
+    <legend>About your recipe</legend>
+      <%= f.input :name, hint: "what's the title of your recipe?" %>
+      <%= f.input :description, hint: "what's the title of your recipe?", as: 'text', input_html: {rows: 3} %>
+  </fieldset>
+
+  <fieldset>
+    <legend>Images</legend>
+    <%= f.simple_fields_for :images, @recipe.images do |i| %>
+      <%= content_tag :div, :class => "dynamic_field" do %>
+        <%= i.input :filename %>
+
+        <% unless i.object.new_record? %>
+          <%= i.hidden_field :_destroy %>
+          <%= link_to "remove", "#", :class => "remove_field" %>
+        <% end %>
+      <% end %>
+    <% end %>
+  </fieldset>
+
+  <fieldset>
+    <legend>Ingredients</legend>
+    <%= f.simple_fields_for :ingredients, @recipe.ingredients do |ingredient| %>
+      <%= render 'nested_fields', :f => ingredient %>
+    <% end %>
+    <%= link_to_add_fields("Add an ingredient", f, :ingredients) %>
+  </fieldset>
+
+  <fieldset>
+    <legend>Steps</legend>
+    <%= f.simple_fields_for :steps, @recipe.steps do |step| %>
+      <%= render 'nested_fields', :f => step %>
+    <% end %>
+    <%= link_to_add_fields("Add a step", f, :steps) %>
+    <div class="actions">
+      <%= f.button :submit, class: 'primary' %>
+      <%= button_tag 'Cancel', type: :reset, class: "btn" %>
+    </div>
+  </fieldset>
+<% end %>
+</div>

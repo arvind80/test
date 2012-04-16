@@ -1,0 +1,18 @@
+<% if comentable.comments.empty? -%>
+  <p>No comments available.</p>
+<% else -%>
+  <section class="comments">
+    <h3>Comments</h3>
+    <% comentable.comments.each do |comment| %>
+      <blockquote>
+        <small>
+          <%= if comment.commenter.nil? then "An anonymous user" else link_to_user comment.commenter end %> wrote
+        </small>
+        <%= h comment.content %>
+        <small><%= timeago(comment.created_at) %></small>
+      </blockquote>
+    <% end %>
+  </section>
+<% end -%>
+
+<%= render 'comments/form', comentable: comentable %>

@@ -1,0 +1,6 @@
+CREATE TRIGGER create_default_comment 
+AFTER INSERT ON posts 
+FOR EACH ROW 
+BEGIN 
+INSERT INTO comment (post_id, comment) values (NEW.id,'hello world!'); 
+END;

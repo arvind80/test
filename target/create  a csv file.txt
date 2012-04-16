@@ -1,0 +1,23 @@
+<?php
+
+header("Content-type: text/csv");
+header("Content-Disposition: attachment; filename=file.csv");
+header("Pragma: no-cache");
+header("Expires: 0");
+
+$array = array(
+    array("data11", "data12", "data13"),
+    array("data21", "data22", "data23"),
+    array("data31", "data32", "data23"));
+outputCSV($array);
+
+function outputCSV($data) {
+    $outstream = fopen("php://output", "w");
+    function __outputCSV(&$vals, $key, $filehandler) {
+        fputcsv($filehandler, $vals); // add parameters if you want
+    }
+    array_walk($data, "__outputCSV", $outstream);
+    fclose($outstream);
+}
+
+?>

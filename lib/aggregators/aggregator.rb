@@ -1,0 +1,3 @@
+class Aggregator
+
+end

@@ -1,0 +1,41 @@
+<div class="segment">
+  <h2>
+    <%= @recipe.name %>
+    <%= link_to "edit", edit_recipe_path(@recipe), :class => 'btn pull-right' if can? :update, @recipe %>
+  </h2>
+  <h3>
+    <%= link_to display_name(@recipe.user), username_path(@recipe.user) if @recipe.respond_to?(:user) %>
+    <span class="timestamp">created <%= timeago(@recipe.created_at) %></span>
+  </h3>
+</div>
+
+<div class="segment">
+  <%= display_image_for(@recipe, :main) %>
+
+  <div class="description">
+    <%= @recipe.description %>
+  </div>
+
+  <div class="ingredients">
+    <%= render partial: 'ingredients', locals: { ingredients: @recipe.ingredients } %>
+  </div>
+
+  <div class="steps">
+    <%= render partial: 'steps', locals: { steps: @recipe.steps } %>
+  </div>
+</div>
+
+<div class="segment">
+  <%= render 'votes/show', voteable: @recipe %>
+</div>
+
+<% if can? :update, @recipe %>
+<div class="segment">
+  <%= link_to 'Edit', edit_recipe_path(@recipe) %>
+  <%= link_to 'Destroy', recipe_path(@recipe), :confirm => 'Are you sure?', :method => :delete %>
+</div>
+<% end %>
+
+<% content_for :meta do %>
+  <%= render 'comments/show', comentable: @recipe %>
+<% end %>

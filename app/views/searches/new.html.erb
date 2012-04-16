@@ -1,0 +1,13 @@
+<div class="segment">
+  <h2>Search</h2>
+  <h3>What are you looking for?</h3>
+</div>
+
+<div class="segment">
+  <%= simple_form_for @search, :html => { :class => 'form-horizontal' } do |f| %>
+    <%= render :partial => 'simple_form_errors', :locals => {:f => f} %>
+
+    <%= f.input :keywords, hint: "what are you looking for?" %>
+    <%= f.submit "Search", :class => 'btn btn-primary' %>
+  <% end %>
+</div>

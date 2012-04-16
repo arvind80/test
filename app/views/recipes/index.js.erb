@@ -1,0 +1,2 @@
+$('#recipes').append("<%= escape_javascript render('recipes', :recipes => @recipes) %>");
+$('#pagination').replaceWith("<%= escape_javascript(link_to_next_page(@recipes, 'Load More', :remote => true, :class => 'btn', :id => 'pagination', :data => { 'loading-text' => 'Loading...' })) %>");

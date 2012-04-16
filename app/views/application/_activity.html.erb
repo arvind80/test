@@ -1,0 +1,12 @@
+<%= link_to "Sign up", new_user_registration_path %>
+
+<ul class="activity">
+<% Action.recent.each do |action| %>
+  <li>
+    <%= action_for(action) %>
+    <%= timeago(action.created_at) %>
+  </li>
+<% end %>
+</ul>
+
+<%= link_to "all activity", activity_index_path %>

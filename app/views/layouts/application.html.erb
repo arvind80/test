@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Recipes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <%= stylesheet_link_tag "application" %>
+
+  <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/ico/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/ico/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/ico/apple-touch-icon-114x114.png">
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="wrapper">
+    <%= render 'header' %>
+
+    <div id="notifications">
+      <%= render 'notifications' if (notice || alert) %>
+    </div>
+
+    <div id="main" class="container">
+      <div id="main_container_wrapper" class="container">
+        <div id="main_container">
+          <%= yield %>
+        </div>
+
+        <div id="meta">
+          <%= yield :meta %>
+        </div>
+      </div>
+
+      <div id="sidebar_container" class="container">
+        <%= render 'activity' %>
+      </div>
+    </div>
+
+    <div class="push"><!--//--></div>
+  </div>
+
+  <%= render 'footer' %>
+
+  <%= javascript_include_tag "application", :debug => Rails.env.development?  %>
+</body>
+</html>

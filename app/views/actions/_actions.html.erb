@@ -1,0 +1,6 @@
+<% actions.each do |action| %>
+  <li>
+    <span class='action_details'><%= action_for(action) %></span>
+    <span class='action_meta'><%= timeago(action.created_at) %></span>
+  </li>
+<% end %>

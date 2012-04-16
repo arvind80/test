@@ -1,0 +1,151 @@
+<?php
+
+include("db_connection.php");
+$email1=$_POST['email'];
+$first_name=$_POST['fname'];
+$last_name=$_POST['lname'];
+$primary_phone=$_POST['primaryphone'];
+$state=$_POST['states'];
+$zip_code=$_POST['zipcode'];
+$date_registered=date("m-d-Y");
+$time_registered=date("h:i a T");
+$ip_address=$_SERVER['REMOTE_ADDR'];
+$domain="www.viewrecruiting.com";
+$websiteOwner="David Kennedy";
+// Strip slashes on the Local typed-in variables for security and run any php based error check here
+
+$email1          = stripslashes($email1);
+$first_name      = stripslashes($first_name);
+$last_name       = stripslashes($last_name);
+$primary_phone   = stripslashes($primary_phone);
+$zip             = stripslashes($zip);
+
+$sqlCommand ="INSERT INTO a1_Registrations(id,email1, 
+										 first_name,
+										 last_name,
+										 primary_phone,
+										 state,
+										 zip_code,
+										 date_registered,
+										 time_registered,
+										 ip_address)VALUES(UUID(),'$email1',
+										 '$first_name',
+										 '$last_name',
+										 '$primary_phone',
+										 '$state',
+										 '$zip_code',
+										 '$date_registered',
+										 '$time_registered',
+										 '$ip_address')";
+
+$query = mysqli_query($myConnection, $sqlCommand) or die (mysqli_error($myConnection));
+
+if($query){
+	echo "Your data has been submitted";
+	//Storing the data in remote database.
+	//set POST variables
+	$url = 'http://www.cashinaflashwebinar.com/scripts/CoopRegistrations.php';
+	$fields = array(
+			'first_name'=>urlencode($first_name),
+			'last_name'=>urlencode($last_name),
+			'primary_phone'=>urlencode($primary_phone),
+			'domain'=>urlencode($domain),
+			'websiteOwner'=>urlencode($websiteOwner),
+			'state'=>urlencode($state),
+			'zip_code'=>urlencode($zip_code),
+			'date_registered'=>urlencode($date_registered),
+			'time_registered'=>urlencode($time_registered),
+			'email1'=>urlencode($email1),
+			'ip_address'=>urlencode($ip_address)
+		);
+
+	//url-ify the data for the POST
+	foreach($fields as $key=>$value)
+	 { $fields_string .= $key.'='.$value.'&';
+	 }
+	rtrim($fields_string,'&');
+
+	//open connection
+	$ch = curl_init();
+
+	//set the url, number of POST vars, POST data
+	curl_setopt($ch,CURLOPT_URL,$url);
+	curl_setopt($ch,CURLOPT_POST,count($fields));
+	curl_setopt($ch,CURLOPT_POSTFIELDS,$fields_string);
+
+	//execute post
+	$result = curl_exec($ch);
+
+	//close connection
+	curl_close($ch);
+}
+else{
+  echo "Problem in submitting the data to the database";
+}
+
+//message to website owner
+$to="david.kennedy@live.com";	
+$name = "Virtual Millionaire Team";
+$from = "info@virtualmillionaireteam.com";
+$subject = "New Lead - Registration Notification";
+$message = 
+"$first_name $last_name has just registered with your site and has begun watching the HAVVN
+orientation and has provided the following information:
+
+Name: $first_name $last_name
+Email: $email1
+Primary Phone: $primary_phone
+State: $state
+Zip Code: $zip_code
+IP Address: $ip_address
+
+
+If the indidivual does not fill out the second form within an hour, you need to contact them and ask them why they did not finish watching the HAVVN Orientation.";
+
+// Build $headers Variable
+
+$header = "From: ".$name." <".$from.">\r\n";
+$to = "$to";
+    // Send the email
+    mail($to, $subject, $message, $header);
+	
+
+//message to website visitor
+$to = "$email1";
+$name = "David Kennedy";
+$from = "David@viewrecruiting.com";
+
+$subject = "$first_name, thank you for registering for your orientation.";
+$message = 
+"$first_name, I hope that you were able to watch the entire orientation of my company.
+
+You can view the entire orientation at http://www.viewrecruiting.com/orientation.
+Some of the highlights of the Orientation are:
+- Cutting-edge and hi-tech product line that is based on $4.5 Billion and 22 years worth of research.
+- Virtually no competition.
+- Our company has a world-class management team and will be the next billion-dollar brand.
+- Ability to work from home either full-time or part-time.
+
+You can get started right now.  http://www.viewrecruiting.com/enrollnow
+
+Feel free to contact me with any questions you might have.
+
+To Your Success!!
+
+David Kennedy
+e-mail: david@viewrecruiting.com
+Phone: 702-543-1043";
+// Build $headers Variable
+//$headers = "From:" . $from;
+$header = "From: ".$name." <".$from.">\r\n";
+$to = "$to";
+    // Send the email
+    mail($to, $subject, $message, $header);	
+	//text message to website owner
+    $subject = "New Lead!";
+    $message = "$first_name $last_name has begun watching the orientation and provided this number: $primary_phone";  
+   mail("2089953530@vtext.com",$subject,$message,"From:" . $from);
+exit();
+// close mysql connection 
+mysqli_close($myConnection);
+?>

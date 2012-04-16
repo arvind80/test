@@ -1,0 +1,14 @@
+<ul class="users">
+  <% users.each do |user| %>
+  <li class="user">
+    <div class="user_photo">
+      <%= image_tag "http://placehold.it/100x100" %>
+    </div>
+    <div class="user_meta">
+      <%= link_to display_name(user), username_path(user) %>
+      <%= user.points %>
+      <%= follow_link(user) %>
+    </div>
+  </li>
+  <% end %>
+</ul>

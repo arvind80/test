@@ -1,0 +1,11 @@
+<% recipes.each do |recipe| %>
+<li class="recipe">
+  <div class="recipe_photo">
+    <%= display_image_for(recipe, :main) %>
+  </div>
+  <div class="recipe_meta">
+    <h4><%= link_to recipe.name, recipe_path(recipe) %></h4>
+    <%= link_to display_name(recipe.user), username_path(recipe.user) %> <span class="created_at">(created <%= timeago(recipe.created_at) %>)</span>
+  </div>
+</li>
+<% end %>

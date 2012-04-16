@@ -1,0 +1,6 @@
+<%= simple_form_for Search.new, :html => { :class => 'form-search' } do |f| %>
+  <input type="text" size="50" name="search[keywords]" id="search" class="string optional">
+  <input type="submit" value="Search" name="commit" class="btn inline">
+<% end %>
+
+
