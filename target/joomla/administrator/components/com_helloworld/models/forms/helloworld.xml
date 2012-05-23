@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="amount"
+			type="text"
+			label="Amount"
+			size="40"
+			class="inputbox"
+			required="false"
+			default=""
+		/>
+		<field
+			name="email"
+			type="text"
+			label="Email"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="first_name"
+			type="text"
+			label="First Name"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="last_name"
+			type="text"
+			label="Last Name"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="employer"
+			type="text"
+			label="Employer"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="occupation"
+			type="text"
+			label="Occupation"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="paid_status"
+			type="radio"
+			label="Paid Status"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		>
+			<option value="1">Paid</option>
+			<option value="0">Un-paid</option>
+		</field>
+	</fieldset>
+	
+</form>

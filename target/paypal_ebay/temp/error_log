@@ -1,0 +1,2 @@
+[24-Feb-2012 00:03:47] PHP Warning:  Invalid argument supplied for foreach() in /home/harvest/public_html/temp/result.php on line 12
+[24-Feb-2012 00:18:48] PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 65515 of 65535 bytes in /home/harvest/public_html/temp/result.php on line 15

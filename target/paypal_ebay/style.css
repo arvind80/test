@@ -1,0 +1,52 @@
+*{margin:0; padding:0;}
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.main{ margin:0 auto; width:1000px;}
+.container{ float:left; width:1000px;}
+.box{margin:0 auto; width:625px;}
+.detail-box{ float:left; width:625px; padding-bottom:20px;}
+.detial-box-tp{ float:left; background:url(images/detail-b-tp.png) no-repeat; width:613px; height:20px;}
+.detial-box-bt{ float:left; background:url(images/detail-b-bt.png) no-repeat; width:613px; height:20px;}
+.detial-box-mid{ float:left; position:relative; background:url(images/detail-b-md.png) repeat-y; width:593px; padding:10px;}
+.detial-box-mid ul{float:left; list-style:none; width:500px;}
+.detial-box-mid ul li{float:left;}
+.detial-box-mid label{ float:left; width:150px;}
+.detial-box-mid label.error{ float:left; width:150px; color:red;}
+.detial-box-mid  input[type="text"]{ float:left; margin-right:10px; background:url(images/input-bg.png) repeat-x; border:1px solid #bcbcbd; color:#455a67; height:25px; line-height:25px; padding:0 5px; width:146px;}
+.detial-box-mid  input[type="submit"]{ float:left; background:url(images/submit.png) no-repeat; border:none; width:103px; height:29px; line-height:29px; text-align:center;}
+.head{ background:#74a3c2; color:#fff; padding:10px;}
+.borders{ border-right:1px solid #b8c7d1;  border-bottom:1px solid #b8c7d1; }
+a.view-tran{float:left; color:#455a67; background:url(images/transaction.png) no-repeat; padding-left:25px; text-decoration:none; height:21px; line-height: 21px;}
+a:hover.view-tran{text-decoration:underline}
+.first{ float:left;   margin-left: 144px; width: 600px;}
+.first ul{float:left; list-style:none; width:500px;}
+.first ul li a{color:#333; text-decoration:none;}
+.first ul li a:hover{color:#333; text-decoration:underline;}
+.first ul li{ float:left; padding:5px; margin-right:5px; margin-top:20px; border:1px solid #bcbcbd;}
+.first ul li.first{float:left; background:#74a3c2;  color:#fff; padding:5px; text-align:center; width:22px; border:1px solid #bcbcbd;}
+.first ul li.last{float:left; background:#74a3c2; color:#fff; padding:5px; text-align:center; width:22px; border:1px solid #bcbcbd;}
+.first ul li.next{ float:left;}
+.first ul li.prev{ float:left;}
+.red{
+    color:red;
+}
+.pl5{
+    
+    padding-left:5px;
+}
+.wait {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+    float: left;
+    font-size: 13px;
+    height: 25px;
+    left: 126px;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 59px;
+    width: 360px;}
+/* Site
+   -------------------------------- */
+
+

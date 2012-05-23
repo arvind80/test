@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="updhelloworld">
+	<fieldset name="updhelloworld">
+
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="amount"
+			type="text"
+			label="Amount"
+			size="40"
+			class="inputbox"
+			required="false"
+			default=""
+		/>
+		<field
+			name="email"
+			type="text"
+			label="Email"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="first_name"
+			type="text"
+			label="First Name"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+		<field
+			name="last_name"
+			type="text"
+			label="Last Name"
+			size="40"
+			class="inputbox validate-amount"
+			required="false"
+			default=""
+		/>
+
+	</fieldset>
+</form>
