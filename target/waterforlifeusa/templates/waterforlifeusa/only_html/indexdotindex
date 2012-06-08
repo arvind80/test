@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:v='urn:schemas-microsoft-com:vml'>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<title>Water For Life</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"  />
+        <!--[if IE]><?import namespace="v" implementation="#default#VML" ?><![endif]-->
+        <script type="text/javascript" src="http://omnitom.com/facelift/flir.js"></script>
+        <script type="text/javascript" src="js/jquery1.3.2.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+        <script type="text/javascript" src="js/jquery.form.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+
+	</head>
+	<body>
+        <div id="container">
+          <div id="wrapper">
+            <div id="header" class="wrap">
+                <address id="phone">CALL NOW 1.877.255.3713</address>
+                <div style="c"></div>
+                <a href="#" id="logo">Water For Life</a>
+                <ul id="nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">NEWS</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Resouce</a></li>
+                  <li><a href="#">AfiliateS</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div id="home_head">
+                    <div id="home_head_image"></div>
+                    <div id="baner_txt">
+                        <h2 id="baner_h2">See our products</h2>
+                        <a href="#" id="baner_a">
+                            <span id="baner_a_span">See our products</span>
+                        </a>
+                        <script type="text/javascript">
+                            $(function(){
+                                FLIR.replace(document.getElementById('baner_h2'),  new FLIRStyle({ cFont:'kozukagopro', cColor:'008ccf', cSize:'24', cTransform:'uppercase' }));
+                                FLIR.replace(document.getElementById('baner_a_span'),  new FLIRStyle({ cFont:'kozukagopro', cColor:'008ccf', cSize:'14'}));
+                            })
+                        </script>
+                    </div>
+                </div>
+
+            </div><!-- /#header -->
+
+            <div id="content" class="gradient_top">
+               <h2 class="title" id="fvideo">Featured video</h2>
+               <div id="featured_video">
+                  <img src="img/featured_video.jpg" alt="" />
+               </div>
+               <div id="home_video_preview">
+                <a href="#" class="btn right">See All Videos</a>
+                <h2 class="title left">Alderin Ordell's Testimonial</h2>
+                <span class="clear subtitle">Alderin Ordell's Testimonial</span>
+                <p class="p">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span style="background-image: url(img/demo/preview1.jpg)"></span>
+                            <strong>Alderin Ordell's Testimonial</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span style="background-image: url(img/demo/preview2.jpg)"></span>
+                            <strong>Chuck and Kat "Infomercial"</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span style="background-image: url(img/demo/preview3.jpg)"></span>
+                            <strong>Alderin Ordell's Testimonial</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span style="background-image: url(img/demo/preview4.jpg)"></span>
+                            <strong>Chuck and Kat "Infomercial"</strong>
+                        </a>
+                    </li>
+                </ul>
+               </div><!-- /home_video_preview -->
+              <div id="home_blocks" class="gradient_top cblock wrap">
+                  <div class="hblock">
+                      <div class="mask1" style="background-image: url(img/demo/box1.jpg)">
+                        <div class="mask"></div>
+                      </div>
+                      <div class="hblock_bottom">
+                        <h2 class="title">The Product</h2>
+                        <p class="p">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                      </div>
+                  </div>
+                  <div class="hblock">
+                      <div class="mask1" style="background-image: url(img/demo/box2.jpg)">
+                        <div class="mask"></div>
+                      </div>
+                      <div class="hblock_bottom">
+                        <h2 class="title">The Product</h2>
+                        <p class="p">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                      </div>
+                  </div>
+
+                  <div class="hblock">
+                      <div class="mask1" style="background-image: url(img/logobox.jpg)">
+                        <div class="mask"></div>
+                      </div>
+                      <div class="hblock_bottom">
+                        <h2 class="title">The Product</h2>
+                        <p class="p">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                      </div>
+                  </div>
+
+
+              </div><!-- /home_blocks -->
+            </div><!-- /#content -->
+
+            <div id="footer">
+                <div id="subfooter">
+                    <div id="from_the_blog">
+                        <h2 class="white-title">From our blog </h2>
+                          <ul>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </li>
+                          </ul>
+                    </div>
+                    <div id="footer_serach_bar">
+                        <h2 class="white-title">Find a dealer near you </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <form id="footer-search" action="#" method="post">
+                            <input type="text" value="Enter your ZIP code" id="zip"
+                                onfocus="if(this.value=='Enter your ZIP code'){this.value=''}"
+                                onblur="if(this.value==''){this.value='Enter your ZIP code'}"  />
+                            <a href="#" id="search_submit" onclick="$('#footer-search').submit()">Search</a>
+                        </form>
+                        <small>Only for United States</small>
+                    </div>
+                </div>
+              <ul id="footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Resouce</a></li>
+                <li><a href="#">Afiliate and Dealer programs</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+              <div id="footer_share">
+                <h2 class="white-title">Follow us on</h2>
+                <a href="#"><img src="img/facebook.jpg" alt=""  /></a>
+                <a href="#"><img src="img/im.jpg" alt=""  /></a>
+                <a href="#"><img src="img/twitter.jpg" alt=""  /></a>
+              </div>
+            </div><!-- /#footer -->
+          </div><!-- /#wrapper -->
+        </div><!-- /#container -->
+	</body>
+</html>

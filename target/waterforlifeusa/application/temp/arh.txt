@@ -1,0 +1,2194 @@
+
+   <pages>
+          <n>11</n>
+        <an>0</an>
+        <ParentPage>223</ParentPage>
+        <Name>Администрация сайт</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>3</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>3</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/site_choose.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>1</SecLevel>
+        <sort_n>11</sort_n>
+   </pages>
+   
+   <pages>
+          <n>111</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Нова страница</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/edit.php</PageURL>
+        <imageNo>3681</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>111</sort_n>
+   </pages>
+   
+   <pages>
+          <n>131</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Редактиране на страница</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/page_select.php</PageURL>
+        <imageNo>3682</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>131</sort_n>
+   </pages>
+   
+   <pages>
+          <n>132</n>
+        <an>0</an>
+        <ParentPage>131</ParentPage>
+        <Name>Редактор</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/edit.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>300</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>132</sort_n>
+   </pages>
+   
+   <pages>
+          <n>143</n>
+        <an>0</an>
+        <ParentPage>131</ParentPage>
+        <Name>Изтриване на страница</Name>
+        <PHPvars></PHPvars>
+        <textStr>Действително ли желаете изтриване на страницата ?
+</textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/delete_confirmation.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>143</sort_n>
+   </pages>
+   
+   <pages>
+          <n>144</n>
+        <an>0</an>
+        <ParentPage>143</ParentPage>
+        <Name>Заличаване</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/deletepage.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>144</sort_n>
+   </pages>
+   
+   <pages>
+          <n>145</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Карта на сайта</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/site_map.php</PageURL>
+        <imageNo>3683</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-05-26 08:48:53</date_added>
+        <date_modified>2008-06-02 10:46:12</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>145</sort_n>
+   </pages>
+   
+   <pages>
+          <n>152</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>152</sort_n>
+   </pages>
+   
+   <pages>
+          <n>153</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>153</sort_n>
+   </pages>
+   
+   <pages>
+          <n>154</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Редакция интернет сайт</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/site_edit.php</PageURL>
+        <imageNo>3685</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>2</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-07-01 16:37:01</date_added>
+        <date_modified>2008-07-01 16:37:01</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>154</sort_n>
+   </pages>
+   
+   <pages>
+          <n>156</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>index.html</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>156</sort_n>
+   </pages>
+   
+   <pages>
+          <n>157</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>index.html</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>157</sort_n>
+   </pages>
+   
+   <pages>
+          <n>158</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>index.html</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>158</sort_n>
+   </pages>
+   
+   <pages>
+          <n>159</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>index.html</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>159</sort_n>
+   </pages>
+   
+   <pages>
+          <n>160</n>
+        <an>0</an>
+        <ParentPage>1</ParentPage>
+        <Name>За нас</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><strong><span style="color: #ff0000;">Телефони</span></strong><br />БТК 02 <strong>846 46 46<br /></strong><em>МТел </em><strong>0888 846 006</strong><br /><em>Глобул </em><strong>0896 846 006<br />София, </strong>Пловдив, Варна, Бургас, Сливен, В.Търново, Ботевград, Враца, Монтана, Видин, Сандански...</p>
+<p><strong><br /></strong>Централен офис София, пл.Сточна гара, <strong>бул.В.Левски 150, и в цялата страна </strong>чрез нашите представители и партньори.</p>
+<p><strong><span style="color: #ff0000;">Централен Офис</span> <br />София 1527, бул."В.Левски" 150, ет.3 <br /></strong><em>(9 до 19 часа)</em><br /><br /><strong><span style="color: #ff0000;">В страната</span></strong><br />Контакти директно или чрез нашите представители, <br />доставки до 2 работни дни</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>2</toplink>
+        <show_link>11</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>2</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>7</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-04-09 09:00:18</date_added>
+        <date_modified>2008-07-03 15:30:09</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>160</sort_n>
+   </pages>
+   
+   <pages>
+          <n>161</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>index.html</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>161</sort_n>
+   </pages>
+   
+   <pages>
+          <n>162</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>index.html</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>162</sort_n>
+   </pages>
+   
+   <pages>
+          <n>163</n>
+        <an>0</an>
+        <ParentPage>151</ParentPage>
+        <Name>За нас</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>Информация за нас</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>163</sort_n>
+   </pages>
+   
+   <pages>
+          <n>164</n>
+        <an>0</an>
+        <ParentPage>226</ParentPage>
+        <Name>Продукт1</Name>
+        <PHPvars></PHPvars>
+        <textStr>Информация за продукт 1</textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>164</sort_n>
+   </pages>
+   
+   <pages>
+          <n>227</n>
+        <an>0</an>
+        <ParentPage>223</ParentPage>
+        <Name>Домейн регистрация</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><strong>Домейнът е </strong>вашето име в интернет. <strong><font color="#ff0000">Можете да регистрирате домейн</font> </strong>с разширение COM/ EU/ NET/ ORG/ INFO или BIZ<br /><strong>докато друга фирма или частно лице <font color="#ff0000">не вземе домейна преди Вас</font></strong>!</p><p><strong>Регистрацията на домейн от първо ниво струва от </strong><font color="#ff0000"><strong>29.90 до 14.95лв на година <br /></strong></font>в зависимост от избрания <a href="host">хостинг пакет</a>. <br /></p></textStr>
+        <PHPcode>include("/hosting/maksoft/maksoft/web/admin/Templates/maksoft.net/code/check_av_dom.php"); 
+if ($domain<>"") {
+ DomainsAvailable($domain, $tld, 8); 
+}
+echo '
+<FORM name=form1 action=/web/admin/Templates/maksoft.net/code/regdomain.php method=post>
+<P></P>www.</B></FONT> <INPUT name=domain> <B><FONT color=#ff0000>. </FONT></B><SELECT name=tld> <OPTION selected>com</OPTION> <OPTION>net</OPTION> <OPTION>eu</OPTION>  <OPTION>org</OPTION> <OPTION>info</OPTION> <OPTION>biz</OPTION></SELECT> ';
+if ($user->AccessLevel >= 2) {
+ echo '
+» e-mail:<input name=ToMail type=text id=ToMail>
+'; 
+}
+echo'
+<INPUT type=submit value=ПРОВЕРЕТЕ name=Submit2> </FORM>
+'; </PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>0</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>18021</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-03-09 09:35:27</date_added>
+        <date_modified>2008-08-27 11:26:44</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>227</sort_n>
+   </pages>
+   
+   <pages>
+          <n>278</n>
+        <an>0</an>
+        <ParentPage>4836</ParentPage>
+        <Name>Вестници</Name>
+        <PHPvars></PHPvars>
+        <textStr><p align="center"><strong><font color="#ff0000">Цени за реклама</font> на централни и регионални ежедневници</strong></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/Templates/maksoft.net/code/media.php</PageURL>
+        <imageNo>4107</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>278</sort_n>
+   </pages>
+   
+   <pages>
+          <n>279</n>
+        <an>0</an>
+        <ParentPage>583</ParentPage>
+        <Name>Оферти по e-mail</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>email/mailing.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>10</SecLevel>
+        <sort_n>279</sort_n>
+   </pages>
+   
+   <pages>
+          <n>280</n>
+        <an>0</an>
+        <ParentPage>3557</ParentPage>
+        <Name>Изпращане писма</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Изпращане на писма...</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>email/send_mailing.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-04-11 10:19:38</date_added>
+        <date_modified>2008-04-11 10:19:38</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>280</sort_n>
+   </pages>
+   
+   <pages>
+          <n>281</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>281</sort_n>
+   </pages>
+   
+   <pages>
+          <n>284</n>
+        <an>0</an>
+        <ParentPage>283</ParentPage>
+        <Name>Проект 1</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>25</imageNo>
+        <imageWidth>800</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>284</sort_n>
+   </pages>
+   
+   <pages>
+          <n>285</n>
+        <an>0</an>
+        <ParentPage>283</ParentPage>
+        <Name>Проект 2</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>с различни менюта от Проект 1</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>26</imageNo>
+        <imageWidth>800</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>285</sort_n>
+   </pages>
+   
+   <pages>
+          <n>286</n>
+        <an>0</an>
+        <ParentPage>283</ParentPage>
+        <Name>Проект 3</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>бял фон</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>27</imageNo>
+        <imageWidth>800</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>286</sort_n>
+   </pages>
+   
+   <pages>
+          <n>266</n>
+        <an>0</an>
+        <ParentPage>223</ParentPage>
+        <Name>Нов сайт</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Можете да <strong><font color="#ff0000">създадете </font></strong>веднага <strong>Вашият сайт </strong>или да се <strong><font color="#ff0000">консултирате </font></strong>с нас за <strong>по-сложни решения</strong> съобразени с Вашите нужди и изисквания.</p><p> </p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>4116</imageNo>
+        <imageWidth>250</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>1</SecLevel>
+        <sort_n>266</sort_n>
+   </pages>
+   
+   <pages>
+          <n>174</n>
+        <an>0</an>
+        <ParentPage>266</ParentPage>
+        <Name>Създаване на сайт</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>За да създадете и редактирате своя интернет сайт е необходимо да се регистрирате.<br /><br />Потребителското име и паролата, която изберете ще се използва за вход административната част на Вашият фирмен интернет сайт.</p><p> </p></textStr>
+        <PHPcode>if ($step==0) $step=1;
+if ($user->AccessLevel > 5) 
+include("web/site_creator.php"); 
+else
+include("web/reg.php");
+
+if($user->ID == 196) include("web/reg.php"); </PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-03-07 17:50:02</date_added>
+        <date_modified>2008-03-07 17:50:32</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>174</sort_n>
+   </pages>
+   
+   <pages>
+          <n>177</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Документация</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>3686</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>5</SecLevel>
+        <sort_n>177</sort_n>
+   </pages>
+   
+   <pages>
+          <n>178</n>
+        <an>0</an>
+        <ParentPage>177</ParentPage>
+        <Name>Права за достъп</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>Правата за достъп в съответната страница се валидират от скрипта в страница <BR><STRONG><FONT color=#ff0000>page.php</FONT></STRONG></P><P><STRONG>Нерегистриран потребител</STRONG> получава $user->AccessLevel = 0</P><P><STRONG>Регистриран потребител</STRONG> получава $user->AccessLevel = зададения в таблица users AccessLevel ако текущият сайт ($SiteID) му е разрешен за редактиране в таблица SiteAccess или станртен $userAccessLevel = 2 за всички други сайтове.</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>178</sort_n>
+   </pages>
+   
+   <pages>
+          <n>179</n>
+        <an>0</an>
+        <ParentPage>177</ParentPage>
+        <Name>Изображения</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>Изображенията с разделени в директории описани в таблица <FONT color=#ff0000>image_dirs<BR></FONT>По подразбиране със създаването на всеки <STRONG>нов сайт </STRONG><BR>се създава директория в <STRONG>ImageDirs с име името на сайта<BR>и същата се задава като imagesdir в таблица Sites.</STRONG></P><P>Таблица <STRONG>ImageAccess</STRONG> описва възможностите релацията <STRONG>директория снимки - SiteID</STRONG><BR>и предоставя възможност за ползването на повече от една снимкова директория в рамките на един сайт.</P><P>Избора на текуща снимкова директория следва да се извършва в раздел <STRONG>Редакция на сайта</STRONG> - site_edit.php</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>10</SecLevel>
+        <sort_n>179</sort_n>
+   </pages>
+   
+   <pages>
+          <n>185</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Изтриване на интернет сайт</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/site_delete.php</PageURL>
+        <imageNo>3687</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>2</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>2</SecLevel>
+        <sort_n>185</sort_n>
+   </pages>
+   
+   <pages>
+          <n>187</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>187</sort_n>
+   </pages>
+   
+   <pages>
+          <n>186</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>186</sort_n>
+   </pages>
+   
+   <pages>
+          <n>188</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>188</sort_n>
+   </pages>
+   
+   <pages>
+          <n>189</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>189</sort_n>
+   </pages>
+   
+   <pages>
+          <n>190</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>190</sort_n>
+   </pages>
+   
+   <pages>
+          <n>191</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>191</sort_n>
+   </pages>
+   
+   <pages>
+          <n>192</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>192</sort_n>
+   </pages>
+   
+   <pages>
+          <n>193</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>193</sort_n>
+   </pages>
+   
+   <pages>
+          <n>194</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>194</sort_n>
+   </pages>
+   
+   <pages>
+          <n>195</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>195</sort_n>
+   </pages>
+   
+   <pages>
+          <n>196</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>196</sort_n>
+   </pages>
+   
+   <pages>
+          <n>197</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>197</sort_n>
+   </pages>
+   
+   <pages>
+          <n>198</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>198</sort_n>
+   </pages>
+   
+   <pages>
+          <n>199</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>199</sort_n>
+   </pages>
+   
+   <pages>
+          <n>200</n>
+        <an>0</an>
+        <ParentPage>199</ParentPage>
+        <Name>За Нас</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>200</sort_n>
+   </pages>
+   
+   <pages>
+          <n>201</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>201</sort_n>
+   </pages>
+   
+   <pages>
+          <n>202</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>202</sort_n>
+   </pages>
+   
+   <pages>
+          <n>203</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>203</sort_n>
+   </pages>
+   
+   <pages>
+          <n>204</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL>web/admin/pageURLs/calendar.php</PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>204</sort_n>
+   </pages>
+   
+   <pages>
+          <n>205</n>
+        <an>0</an>
+        <ParentPage>226</ParentPage>
+        <Name>Продукт 2</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>one</P><P>one o ne sdfsdf sdf sdf sdffds</P><P>one o ne o ne o ne dfsds;ldfsd;lfksd f o ne </P><P>product details</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>205</sort_n>
+   </pages>
+   
+   <pages>
+          <n>208</n>
+        <an>0</an>
+        <ParentPage>207</ParentPage>
+        <Name>За Белоградчик</Name>
+        <PHPvars></PHPvars>
+        <textStr>Това е най-хубавият град в Северозпадна България. Предлага отлични условия за почивка и незабравими мигове.</textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>5</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>208</sort_n>
+   </pages>
+   
+   <pages>
+          <n>211</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>211</sort_n>
+   </pages>
+   
+   <pages>
+          <n>213</n>
+        <an>0</an>
+        <ParentPage>11</ParentPage>
+        <Name>Помощна информация</Name>
+        <PHPvars></PHPvars>
+        <textStr><P><STRONG>Система за управление на съдържание на интернет сайтове </STRONG>(<STRONG><FONT color=#ff0000>CMS</FONT></STRONG>) изградена от Максофт Нет ЕООД. </P></textStr>
+        <PHPcode>echo('
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/translatemypage.xml&up_source_language=bg&w=160&h=60&title=&border=&output=js"></script>
+'); </PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>3688</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-07-24 11:09:31</date_added>
+        <date_modified>2008-07-24 11:19:50</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>213</sort_n>
+   </pages>
+   
+   <pages>
+          <n>214</n>
+        <an>0</an>
+        <ParentPage>213</ParentPage>
+        <Name>Описание на системата</Name>
+        <PHPvars></PHPvars>
+        <textStr><P><STRONG>Създаването и редактирането на Вашият фирмен интернет сайт може да става само с помощта на компютър с интернет достъп и броузър (Internet Explorer).</STRONG></P><P>Вашият сайт е разделен на <STRONG>отделни елементи</STRONG> (страници) всяка съдържаща текст и евентуално снимка. </P><P>Създавайки всяка отделна страница Вие задавате предходната страница. По този начин сайтът Ви придобива <STRONG><FONT color=#ff0000>дървовидна структура</FONT></STRONG>- например:</P><UL><LI><EM>За нас</EM></LI><UL><LI><EM>За фирмата</EM></LI><LI><EM>Контакти</EM></LI><LI><EM>Форма за запитване</EM></LI></UL><LI><EM>Продукти</EM></LI><UL><LI><EM>Продукт 1</EM></LI><LI><EM>Продукт 2</EM></LI><UL><LI><EM>Описание</EM></LI><UL><LI><EM>технически параметри</EM></LI></UL></UL><LI><EM>Продукт 3</EM></LI><LI><EM>..............</EM></LI><LI><EM>Продукт N</EM></LI></UL></UL><P><STRONG>Вие не е необходимо да се грижите за навигацията в сайта.</STRONG> Системата сама изгражда връзките към отделните страници в сайта.</P><P><STRONG>Няма ограничение</STRONG> за дълбочината на всеки един клон от дървовидната структура на Вашият сайт. </P><P>По този начин Вие можете да го разширявате практически неограничено.</P><P> </P><P><STRONG>Съдържанието на Вашият сайт е <FONT color=#ff0000>независимо от неговият дизайн</FONT>!</STRONG><STRONG><BR></STRONG>Това ознaчава че Вие можете да добавяте и редактирате информация в сайта и във всеки един момент да промените неговият дизайн. Промяната на дизайна става с натискането на един клавиш и променя веднага всички страници в сайта.</P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>214</sort_n>
+   </pages>
+   
+   <pages>
+          <n>215</n>
+        <an>0</an>
+        <ParentPage>213</ParentPage>
+        <Name>Вход и регистрация на потребители</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><strong>Системата е ограничена само за <font color="#ff0000">фирмени сайтове</font>.</strong> </p><p>За целта е необходимо да се регистрирате като фирма, с попълнени данни по регистрация. </p><p>След като сте се регистрирали можете да регистрирате няколко различни Ваши служители, както и да създадете повече от един интернет сайт.</p><p><strong>При регистрация е важно да отбележите <font color="#ff0000">потребителско име и парола</font>, които ще ползвате в системата.</strong></p><p><strong><font color="#ff0000">Входа в системата</font></strong> може да стане от адрес <a href="">www.maksoft.net</a> </p><p>Попълвайки своето потребителско име, парола за достъп и бутон <em><strong>Вход или Login </strong></em>системата Ви въвежда в административния панел на последно редактирания Ваш сайт.</p><p>Всеки регистриран потребител може да регистрира други потребители- служители на фирмата или клиенти за достъп до сайта. За целта след вход е необходимо да изберете връзка <strong>Нов потребител </strong>да зададете потребителско име и парола за достъп както и права за четене и/или запис в сайта. </p><p> </p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>6</imageNo>
+        <imageWidth>350</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>215</sort_n>
+   </pages>
+   
+   <pages>
+          <n>216</n>
+        <an>0</an>
+        <ParentPage>213</ParentPage>
+        <Name>Създаване на интернет сайт</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>При създаване на интернет сайт първо задайте кратко име с което ще се идентифицира сайта (може да бъде на латиница).</P><P><STRONG>След това от връзката </STRONG><A href="http://www.maksoft.net/page.php?n=154&SiteID=1"><FONT face=Verdana color=#333333 size=2>Редакция интернет сайт</FONT></A> <STRONG>можете да настроите основните параметри на Вашия интернет сайт:</STRONG></P><UL dir=ltr style="MARGIN-RIGHT: 0px"><LI><STRONG>Заглавие</STRONG> (появява се в лентата на броузъра) - <BR><EM>например:</EM> <EM>Фирма Х - производство и търговия със ................</EM></LI></UL><EM><P dir=ltr><BR></P></EM><UL dir=ltr style="MARGIN-RIGHT: 0px"><LI><STRONG>Графичен дизайн</STRONG> - избирате дизайна който желаете да ползвате за Вашият сайт. <EM><FONT color=#ff0000>Графичния дизайн може да бъде променян многократно дори и след като сте въвели информацията в сайта!</FONT></EM></LI></UL><EM><FONT color=#ff0000><P dir=ltr><BR></P></FONT></EM><UL dir=ltr style="MARGIN-RIGHT: 0px"><LI><STRONG>Описание на сайта<BR></STRONG><EM>например:</EM> <EM>Фирма Х произвежда ................ с най-съвременни технологии</EM></LI></UL><P dir=ltr><EM></EM><BR></P><UL dir=ltr style="MARGIN-RIGHT: 0px"><LI><STRONG>Ключови думи<BR></STRONG><EM>например: търговия посредничество компютри периферия интернет</EM></LI></UL><P dir=ltr> </P><P>Коректното задаване на заглавието, описанието и ключовите думи за Вашият сайт е от особена важност за последващата му регистрация в търсещи машини и директории.</P><P><EM></EM></P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>216</sort_n>
+   </pages>
+   
+   <pages>
+          <n>217</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>217</sort_n>
+   </pages>
+   
+   <pages>
+          <n>219</n>
+        <an>0</an>
+        <ParentPage>213</ParentPage>
+        <Name>Добавяне на информация в сайта</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Става от бутона</p><ul><li><strong>Нова страница<br /></strong></li></ul><p>В раздел <strong>Администрация Сайт</strong>. </p><p><br />Важно е да определените предходната страница в сайта, което ще определи мястото на текущата страница във вашият сайт и автоматично ще изгради връзките към нея. </p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>2</imageNo>
+        <imageWidth>250</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>219</sort_n>
+   </pages>
+   
+   <pages>
+          <n>221</n>
+        <an>0</an>
+        <ParentPage>177</ParentPage>
+        <Name>Дизайни</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Примерните дизайни се разработват при различни резолюции в зависимост от нуждите на сайта. За резолюция 1024 х 768 пискела максимално допустимото изобразително поле е 950 x 600 px. Tъй като голяма част от потребителите ползват точно тази резолюция, примерните дизайни се разработват да бъдат съместими с тази и по-високи резолюции. Не се гарантира съвместимостта с по-ниски такива.<br /></p><p>Новите темплейти се записват в директория <em><strong>web/Templates/ИмеНаДизайна/index.php, </strong></em>a използваните изображения - в <em><font color="#ff0000"><strong>web/Templates/ИмеНаДизайна/images</strong></font></em><br /><br />Дизайна следва да бъде описан в базата данни таблица <strong><font color="#ff0000">Templates</font></strong> и следва да се зададе <strong><font color="#ff0000">status = 1</font> ако дизайна е достъпен за общо ползване </strong>и<br /><strong>status = 0 </strong>ако дизайна е забранен за избор.</p><p><strong>Техническо описание на нов темплейт</strong></p><ol><li><div><strong>template_name : </strong><em>"tmpl_name"</em></div></li><li><div><strong>template_css : </strong><em>base_style.css</em></div></li><li><div><strong>main_width : </strong><em>ширина на осн. поле</em></div></li><li><div><strong>max_width : </strong><em>максимално допустима ширина на страницата</em></div></li><li><div><strong>extra_panels : </strong><em>ползване/неползване на допълнителни панели (време, валута..)</em></div></li><li><div><strong>functions : </strong><em>описание на ползваните функции</em></div></li><li><div><strong>background_image : </strong><em>опция за фонова картинка да/не</em></div></li><li><div><strong>table_class :</strong><em> ползва ли се table_class.php</em></div></li><li><div><strong>banner_size : </strong><em>допустими размери на банера</em></div></li><li><div><strong>site_logo : </strong><em>позлва ли се лого на сайта</em></div></li><li><div><strong>menu_width</strong> : <em>основна широчина на главното меню</em></div></li><li><div><strong>flash_banner : </strong><em>използва ли се флаш банер или не</em></div></li></ol><p><em>Гореизброените параметри са само описателни за даден темплейт, с цел неговово техническо описание и характеризиране.</em></p><p><em>За всички темплейти се описват следните глобални константи:</em></p><ol><li><div><em>define("DIR_TEMPLATE","Templates/име_на_темплайта");</em></div></li><li><div><em>define("DIR_TEMPLATE_IMAGES"," http://maksoft.net/Templates/име_на_темплайта/images ");</em></div></li><li><div><em>define("DIR_STYLE","css/име_на_темплайта/base_style.css");</em></div></li><li><div><em>define("DIR_MODULES","web/admin/modules/");</em></div></li></ol></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>221</sort_n>
+   </pages>
+   
+   <pages>
+          <n>256</n>
+        <an>0</an>
+        <ParentPage>221</ParentPage>
+        <Name>Превю</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>и <STRONG><FONT color=#ff0000>превюто </FONT></STRONG>в мащаб 1:4 или <STRONG>256х192 пиксела </STRONG>в jpg формат съответно в <BR><EM><FONT color=#ff0000>/</FONT>web/admin/Templates/ИмеНаДизайна/<FONT color=#ff0000>preview</FONT>.jpg    *<BR></EM>този път трябва да е указан и в таблицата</P><P>* внимавайте в правописа на preview<BR> ** първата<STRONG> /<BR></STRONG>  </P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>10</SecLevel>
+        <sort_n>256</sort_n>
+   </pages>
+   
+   <pages>
+          <n>222</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>222</sort_n>
+   </pages>
+   
+   <pages>
+          <n>223</n>
+        <an>0</an>
+        <ParentPage>1</ParentPage>
+        <Name>Интернет</Name>
+        <PHPvars></PHPvars>
+        <textStr><P><STRONG><SPAN style="COLOR: #ff0000">Интернет решения</SPAN></STRONG> за <STRONG>малки фирми</STRONG> и <STRONG>корпоративни клиенти</STRONG> с управление от Вашият офис чрез <SPAN style="COLOR: #ff0000"><STRONG>Система за управление на съдържание (CMS).  </STRONG></SPAN>Регистрация домейни, <STRONG>хостинг със CMS, поддръжка, SEO оптимизация </STRONG>без аналог.<STRONG> </STRONG> </P>
+<P>Сайтовете реализирани от Максофт.Нет се отличават със:</P>
+<UL>
+<LI>
+<DIV>Възможност за изключително лесно упрвление на съдържанието (текстове и изображения) директно от Вашият офис;</DIV></LI>
+<LI>
+<DIV>Google рейтинг и цялостна SEO (оптимизация за търсещи машини) без аналог;</DIV></LI>
+<LI>
+<DIV>Българска CMS (Система за управление на съдържанието) с осигурено непрекъснато развитие;</DIV></LI>
+<LI>
+<DIV>Поддръжка и развитие в рамките на хостинга на Вашият сайт;</DIV></LI>
+<LI>
+<DIV>Многократна промяна на дизайна независимо от съдържанието в сайта.</DIV></LI></UL>
+<P><EM>Компанията поддържа няколкостотин сайта на малки фирми, както и сайтове на компании с национално значение. ..</EM></P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>2</toplink>
+        <show_link>4</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>3</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>4116</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-03-09 09:36:24</date_added>
+        <date_modified>2008-11-19 09:38:27</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>223</sort_n>
+   </pages>
+   
+   <pages>
+          <n>562</n>
+        <an>0</an>
+        <ParentPage>541</ParentPage>
+        <Name>Самозалепващи (един или два цвята)</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>За етикети на ролка в тиражи<strong> над 5000бр</strong> общо за всички поръчвани видове. <br />За етикетиране на различни стоки, предаване - на ролки, възможност за различни видове и размери. </p><p><strong>Печат на </strong>самозалепваща хартия, текстил, прозрачно фолио. </p><p><strong>Технология на печат:</strong> термодиректна / термотрансферна при резолюция 300dpi. </p><p> </p></textStr>
+        <PHPcode>// razmer, cena biala samozalepvashta hartia, cena cvetna hartia, cena prozrachno folio)
+$vid_prepress = 10; 
+$price_inc = 1.4; 
+$et[1] = array("1.8 x 1.2 см", 1); 
+$et[2] = array("4.3 x 1.0 см", 1.4); 
+$et[3] = array("3.8 x 2.5 см", 2.42); 
+$et[4] = array("5.0 x 2.0 см", 2.83); 
+$et[5] = array("5.0 x 3.0 см", 3.90); 
+$et[6] = array("5.8 x 6.0 см", 11.67); 
+$et[7] = array("6.3 x 4.2 см", 8.40); //7лв без ДДС х 1.2= 8.40+ДДС
+$et[8] = array("6.8 x 5.4 см", 12.66); 
+$et[9] = array("8.4 x 3.5 см", 10); 
+$et[10] = array("9.2 x 5.8 см", 17); 
+$et[11] = array("12.2 x 8 см", 33.68); 
+include("web/admin/Templates/maksoft.net/etiketi/calc.php"); 
+include("web/admin/Templates/maksoft.net/code/print.php"); </PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>97</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>562</sort_n>
+   </pages>
+   
+   <pages>
+          <n>563</n>
+        <an>0</an>
+        <ParentPage>541</ParentPage>
+        <Name>Етикети за различни артикули</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Размери по желание на клиента. </p><p><strong>Обикновени или самозалепващи. <br /></strong><br />За етикетиране на различни по вид храни (хляб, малотрайни и дълготрайни колбаси и др.) както и за преетикетиране на вносни стоки </p><p>съгласно изискванията на българското законодателство. <br /></p><strong><strong><p><strong>Технология на печат: </strong>офсетова</p></strong></strong></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>3055</imageNo>
+        <imageWidth>300</imageWidth>
+        <image_allign>6</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>563</sort_n>
+   </pages>
+   
+   <pages>
+          <n>567</n>
+        <an>0</an>
+        <ParentPage>283</ParentPage>
+        <Name>Проект 4</Name>
+        <PHPvars></PHPvars>
+        <textStr>в тъмна цветова гама</textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>28</imageNo>
+        <imageWidth>800</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>567</sort_n>
+   </pages>
+   
+   <pages>
+          <n>225</n>
+        <an>0</an>
+        <ParentPage>226</ParentPage>
+        <Name>Продукт 3</Name>
+        <PHPvars></PHPvars>
+        <textStr>Това е информацията за продукт 3</textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>225</sort_n>
+   </pages>
+   
+   <pages>
+          <n>226</n>
+        <an>0</an>
+        <ParentPage>151</ParentPage>
+        <Name>Продукти</Name>
+        <PHPvars></PHPvars>
+        <textStr>Продукти</textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>0</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>226</sort_n>
+   </pages>
+   
+   <pages>
+          <n>228</n>
+        <an>0</an>
+        <ParentPage>160</ParentPage>
+        <Name>За фирмата</Name>
+        <PHPvars></PHPvars>
+        <textStr><P>Рекламна агенция МАКСОФТ е на българския пазар от 1992 година. Предлага пълно рекламно обслужване в областта на печатната, интернет и медиа реклама. </P>
+<P><STRONG>Приоритети в развитието на фирмата са:</STRONG></P>
+<UL>
+<LI>интернет разработките - фирмени и портални <FONT color=#ff0000><STRONG>интернет сайтове. </STRONG><FONT color=#000000 editor_id="mce_editor_0">Фирмата развива най-ползваната изцяло българска <STRONG>Система за Управление на съдържанието на интернет сайтове</STRONG>, позволяваща пълен контрол върху съдържанието директно от офиса на клиента и CEO оптимизация за търсещи машини без аналог; <BR></FONT></FONT></LI>
+<LI editor_id="mce_editor_0"><STRONG><FONT color=#ff0000>печатната реклама </FONT></STRONG>- договарянето, продажбата и контрола на полиграфически услуги с високотехнологични печатни бази от цялата страна на преференциални цени; <BR></LI>
+<LI><STRONG><FONT color=#ff0000>календари и сувенири</FONT></STRONG>- производството на работни и многолистови календари с индивидуален дизайн, продажба и брандиране на фирмени рекламни материали;<BR></LI>
+<LI>договаряне и продажба на <STRONG>рекламни площи във <FONT color=#ff0000>вестници, списания и електронни медии</FONT> </STRONG>при преференциални условия<BR></LI></UL>
+<P> </P>
+<P>Фирмата разполага с кадрови и технически потенциал за извършване на висококачествен графичен дизайн, предпечат, цифрово фотозаснемане, изработка и поддръжка на интернет сайтове, програмиране на интернет бази данни.</P>
+<P>Максофт договаря годишни обеми с високотехнологични печатни бази и <STRONG><FONT color=#ff0000>предлага преференциални условия за печат</FONT></STRONG> в избрани печатници на рекламни агенции и посредници. </P>
+<P>Чрез портални сайтове фирмата има за цел да осигури максимално <STRONG><FONT color=#ff0000>безпристрастен </FONT>контрол върху цените и качеството на полиграфическата продукция</STRONG>.</P>
+<P>Предлага както крайни продукти - брошури, етикети, визитки, каталози, календари, така и възможност за отпечатване на конкретен продукт с готов предпечат в избрана печатна база и при преференциални условия.</P>
+<P>В разрез с идеологията на фирмата е инвестирането в печатни бази или медии.</P>
+<P>Максофт разчита на взаимодействието с фирмите в бранша с цел максимална прозрачност и коректност в цените и условията за работа. </P>
+<P> </P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-04-09 09:16:18</date_added>
+        <date_modified>2008-09-02 09:06:29</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>228</sort_n>
+   </pages>
+   
+   <pages>
+          <n>229</n>
+        <an>0</an>
+        <ParentPage>1</ParentPage>
+        <Name>Печат</Name>
+        <PHPvars></PHPvars>
+        <textStr><P editor_id="mce_editor_0">Висококачествен предпечат и печат на Вашите рекламни материали, консумативи и аксиденция. Печатници без конкуренция. </P></textStr>
+        <PHPcode></PHPcode>
+        <toplink>2</toplink>
+        <show_link>3</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>4</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>4072</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-07-27 10:03:30</date_added>
+        <date_modified>2008-07-27 10:03:30</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>229</sort_n>
+   </pages>
+   
+   <pages>
+          <n>230</n>
+        <an>0</an>
+        <ParentPage>229</ParentPage>
+        <Name>Предпечат</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Максофт извършва <strong>професионален предпечат</strong> и дизайн на рекламни материали от подадени изходни материали (текстове, снимки, файлове) както и приема <strong><font color="#ff0000">готов предпечат</font></strong> съобразен с изискванията към файловите формати. </p><p> </p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>4124</imageNo>
+        <imageWidth>300</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>230</sort_n>
+   </pages>
+   
+   <pages>
+          <n>239</n>
+        <an>0</an>
+        <ParentPage>0</ParentPage>
+        <Name>Начало</Name>
+        <PHPvars></PHPvars>
+        <textStr></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>239</sort_n>
+   </pages>
+   
+   <pages>
+          <n>231</n>
+        <an>0</an>
+        <ParentPage>229</ParentPage>
+        <Name>Визитки</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Висококачествен печат на визитни картички в различни цветове или пълноцветни на различни типове визитни картони. <br /></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>3</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>3</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>11946</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>0000-00-00 00:00:00</date_added>
+        <date_modified>0000-00-00 00:00:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>231</sort_n>
+   </pages>
+   
+   <pages>
+          <n>232</n>
+        <an>0</an>
+        <ParentPage>160</ParentPage>
+        <Name>За контакт</Name>
+        <PHPvars></PHPvars>
+        <textStr><P class=description align=left>Фирмата работи с клиенти от <STRONG>цялата страна</STRONG> директно или чрез своите партньори. Вие можете да контактувате с централният офис в София или с представителите във Велико Търново, Варна, Бургас, Сливен, Пловдив, Ботевград, Враца, Видин и други градове. </P>
+<P class=description align=left>Вашите въпроси можете да отправите на телефоните на централният офис в София <BR><STRONG>02/846 46 46, </STRONG>МТел <STRONG><SPAN class=skype_tb_innerText>0888 846 006, </SPAN></STRONG>Глобул <SPAN class=skype_tb_innerText><STRONG>0896 846 006<BR></STRONG>или да се свържете с някои от нашите регионални представители: <BR></SPAN></P></textStr>
+        <PHPcode>//include("web/contact_info_sl.php"); </PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>150</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-04-09 09:21:22</date_added>
+        <date_modified>2008-10-26 02:56:57</date_modified>
+        <addtype>0</addtype>
+        <SecLev

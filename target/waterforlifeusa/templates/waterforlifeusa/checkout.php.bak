@@ -1,0 +1,171 @@
+<?
+$sid=$this->session->userdata ( 'session_id' );
+$cart_item = array();
+$cart_item['sid'] = $sid;
+$cart_item['order_completed'] ='n';
+
+$cart_items = $this->cart_model->itemsGet($cart_item);
+//var_dump($sid,$cart_items);
+
+$order_id = "WFL". date("ymdHis") . rand ();
+
+ ?>
+<? if(empty($cart_items)): ?>
+<? include (ACTIVE_TEMPLATE_DIR.'shop_cart_empty.php') ?>
+<? else: ?>
+
+<form method="post" action="<? print $this->content_model->getContentURLById(99) ; ?>" class="validate show-error-fields" id="step2" style="width: 485px;float: left">
+  <input name="autoreply" type="hidden"  value="autoreply_order" />
+  <input type="hidden" name="currency_code" value="<? print $this->session->userdata ( 'shop_currency_code' ) ?>">
+  <input type="hidden" name="shipping" id="payment_form_shipping" value="">
+  <input type="hidden" name="amount" class="billing_info_trigger" value="<? print ($this->cart_model->itemsGetTotal(false,$this->session->userdata ( 'shop_currency' ))); ?>">
+  <input type="hidden" name="promo_code" id="the_promo_code_input" value="<? print ($this->session->userdata ( 'cart_promo_code' )); ?>">
+  <input type="hidden" name="order_id" class="billing_info_trigger" value="<? print $order_id; ?>">
+  <?  $this->session->set_userdata ( 'order_id' ,$order_id); ?>
+  <div id="home_head" style="height: auto">
+    <div id="in-banner" class="product-baner">
+      <script type="text/javascript">
+                            $(function(){
+                                    FLIR.replace(document.getElementById('products-baner-title'),  new FLIRStyle({ cFont:'kozukagopro', cColor:'007AC0', cSize:'21' }));
+                                    FLIR.replace(document.getElementById('products-baner-sub-title'),  new FLIRStyle({ cFont:'kozukagopro', cColor:'007AC0', cSize:'28' }));
+
+
+                            $("#checkout_table th").each(function(){
+                                 FLIR.replace(this,  new FLIRStyle({ cFont:'kozukagoprobold', cColor:'007AC0', cSize:'14' }));
+                            });
+
+                         //   document.getElementById('shachk').checked=true;
+
+
+                              if(window.location.href.indexOf('#billing-details')!=-1){
+								  populateBillingInfo();
+                                   $("#go-to-step-2").click();
+                              }
+                              if(window.location.href.indexOf('#send-order')!=-1){
+                                   $("#go-to-step-3").click();
+                              }
+
+
+                            });
+                        </script>
+      <div id="products-baner-txt">
+        <h1 id="products-baner-title">Water for life</h1>
+        <h2 id="products-baner-sub-title"></h2>
+        <p>Water is not just some colorless and tasteless one dimensional liquid; on the contrary, life on earth originated from water, and all life forms depend on water to sustain them, therefore water is the fundamental foundation and source of eternal life on earth. <strong>Dr. Kim Young Kwi</strong>.</p>
+      </div>
+    </div>
+    <!-- /in-banner -->
+  </div>
+  <div id="content">
+    <div style="width:850px;margin: auto">
+      <h2 class="blue-title">Checkout</h2>
+      <p>Please fill out all required fields.</p>
+      <ul class="steplist">
+        <li><a href="#" id="go-to-step-1" class="active"><strong>1</strong> <span>- Shipping Details</span></a></li>
+        <li><a href="#"  onclick="populateBillingInfo();" id="go-to-step-2"><strong>2</strong> <span>- Billing Details</span></a></li>
+        <li style="margin-right: 0"><a href="#" id="go-to-step-3"><strong>3</strong> <span>- Send Order</span></a></li>
+      </ul>
+      <div style="float: right;width:310px;" id="o-info">
+        <table>
+          <tr>
+            <td>
+            <td><div class="richtext">
+                <h2 class="blue-title">Online Payments Center</h2>
+              </div>
+              <table border="0">
+                <tbody>
+                  <tr valign="middle">
+                    <td><h2 class="blue-title-small">What types of credit card do you accept?</h2>
+                      We accept Visa, Mastercard, Discover, Maestro and American Express.
+                      <div style="height: 7px;overflow: hidden">&nbsp;</div>
+                      <img src="<? print TEMPLATE_URL; ?>img/logo_ccVisa.gif"/> <img src="<? print TEMPLATE_URL; ?>img/logo_ccMC.gif"/> <img src="<? print TEMPLATE_URL; ?>img/logo_ccAmex.gif"/> <img src="<? print TEMPLATE_URL; ?>img/logo_ccDiscover.gif"/> <img src="<? print TEMPLATE_URL; ?>img/PayPal_mark_37x23.gif" style="display:none"/>
+                      <div style="height: 7px;overflow: hidden">&nbsp;</div>
+                      <h2 class="blue-title-small">Can I use PayPal? </h2>
+                      Unfortunately, we do not accept PayPal payments. </td>
+                  </tr>
+                </tbody>
+              </table>
+              <br/>
+              <div class="richtext">
+                <h2 class="blue-title">Your order information:</h2>
+              </div>
+              <ul>
+                <li><b>Order unique id:</b> <span id="order_uid_span"><? print $order_id ?></span></li>
+                <li title="USD"><b>Total amount:</b> $ <span id="total_price_for_whole_cart"><? print ($this->cart_model->itemsGetTotal(false,$this->session->userdata ( 'shop_currency' ))); ?></span></b>&nbsp; <span class="pink_text" id="new_price_for_whole_cart"></span> </li>
+                <? $pc = $this->session->userdata ( 'cart_promo_code' ); ?>
+                <? if($pc != false): ?>
+                <script type="text/javascript">
+				$(document).ready(function() {
+					 cart_checkPromoCode()
+				});
+				</script>
+                <li title="Promo code"><b>Promo code:</b> <? print $pc; ?> <small> <span id="the_promo_code_status" class="pink_text" style="display:none; clear:both"></span></small> </li>
+                <? endif; ?>
+                <li><b>Shipping and handling fee:</b> <span class='currency_sign'>$ <span></span></span>
+
+
+                    <div style="position: relative;overflow: hidden;padding-top: 10px;height: 40px;">
+                        <span id="shipping_cost_information" class="shipping_price_holder" ><? print $this->session->userdata ( 'shop_shipping_cost' ) ?></span>
+                        <div class='shipping_price_loading'></div>
+                    </div>
+                </li>
+              </ul>
+              <div class="clear"></div>
+              <br />
+              <div class="richtext">
+                <h2 class="blue-title">Want to change your order:</h2>
+              </div>
+              <ul>
+                <li><a href="<? print $this->content_model->getContentURLById(39) ; ?>">Go to edit your order</a></li>
+                <li><a href="<? print $this->content_model->getContentURLById(2) ; ?>">Shop for more items</a></li>
+              </ul>
+              <br/>
+              <br/>
+              See the <a href="<? print $this->content_model->getContentURLById(49) ; ?>">Water for Life USA Policies</a> for more information about the payments.
+              <div class="clear"></div>
+              <br/>
+              <br/></td>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="stepper-wrap">
+        <div id="stepper" class="state-1">
+          <div id="shop-step-1" class="the_step">
+            <? include (ACTIVE_TEMPLATE_DIR.'shop_shipping_details.php') ?>
+          </div>
+          <!-- /shop-step-1 -->
+          <div id="shop-step-2" class="the_step">
+            <? include (ACTIVE_TEMPLATE_DIR.'shop_billing_details.php') ?>
+          </div>
+          <!-- /shop-step-2 -->
+          <div id="shop-step-3" class="the_step">
+            <div class="info-errors-object"></div>
+            <div class="clear"></div>
+            <br />
+            <br />
+            <a class="btn submit" href="javascript:;">Continue to payment *</a>
+            <!--[if IE 6]><input type="submit" value="" class="ie6sbm" style="width:180px;height:27px;" /><![endif]-->
+            <small style="width:300px; display:block;padding-top: 15px;" class="pink_text">*Note: by clicking the continue to payment button your order will be placed and your shopping bag will be emptied</small> <span id="submit_payments_form_button_redirecting" style="display:none"> <br />
+            Redirecting... </span>
+
+
+
+            </div>
+          <!-- /shop-step-3 -->
+        </div>
+
+
+
+        <!-- /stepper -->
+      </div>
+      <ul class="steplist2">
+        <li><a href="javascript:;" onclick="$('#go-to-step-1').click();$(this).addClass('active');" class="active"><strong>1</strong> <span>- Shipping Details</span></a></li>
+        <li><a href="javascript:;" onclick="$('#go-to-step-2').click();$(this).addClass('active');"><strong>2</strong> <span>- Billing Details</span></a></li>
+        <li style="margin-right: 0"><a href="javascript:;" onclick="$('#go-to-step-3').click();$(this).addClass('active');"><strong>3</strong> <span>- Send Order</span></a></li>
+      </ul>
+    </div>
+  </div>
+</form>
+<!-- /#content -->
+<? endif ?>

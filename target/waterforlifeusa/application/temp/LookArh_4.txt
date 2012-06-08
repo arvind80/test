@@ -1,0 +1,1471 @@
+
+   <pages>
+          <n>30484</n>
+        <an>0</an>
+        <ParentPage>26370</ParentPage>
+        <Name>Bg-land</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Бг ленд - портал за земеделска земя" href="http://www.bg-lands.com/" target="_blank"><img title="Бг ленд - портал за земеделска земя" src="web/images/upload/BgLand.jpg" alt="Бг ленд - портал за земеделска земя" width="88" height="40" /></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-21 15:35:57</date_added>
+        <date_modified>2008-06-21 17:21:46</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>40413</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30485</n>
+        <an>0</an>
+        <ParentPage>28252</ParentPage>
+        <Name>Ad-bg  -  обяви за недвижими имоти</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="web/images/upload/Ad-bg.jpg" href="http://www.ad-bg.net/" target="_blank"><img title="Ад Бг - обяви за недвижими имоти" src="web/images/upload/Ad-bg.jpg" alt="Ад Бг - обяви за недвижими имоти" width="88" height="40" /></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 09:44:46</date_added>
+        <date_modified>2008-06-22 09:47:05</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30485</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30486</n>
+        <an>0</an>
+        <ParentPage>28252</ParentPage>
+        <Name>Bulborsa  -  обяви за недвижими имоти</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Булборса - обяви за недвижими имоти" href="http://www.bulborsa.com" target="_blank"><img title="Булборса - обяви за недвижими имоти" src="web/images/upload/Bulborsa1.jpg" alt="Булборса - обяви за недвижими имоти" width="88" height="40" /></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 09:49:45</date_added>
+        <date_modified>2008-06-22 09:58:05</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30486</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30487</n>
+        <an>0</an>
+        <ParentPage>28252</ParentPage>
+        <Name>Kupuva-prodava  -  обяви за недвижими имоти</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Купува продава ком - обяви за недвижими имоти" href="http://www.kupuva-prodava.com/" target="_blank"><img title="Купува продава ком - обяви за недвижими имоти" src="web/images/upload/Kupuva-prodavaCom.jpg" alt="Купува продава ком - обяви за недвижими имоти" width="88" height="40" /></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 09:50:40</date_added>
+        <date_modified>2008-06-23 09:15:23</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30487</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30488</n>
+        <an>0</an>
+        <ParentPage>28252</ParentPage>
+        <Name>Още сайтове с обяви за недвижими имоти</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><span style="color: #0000ff;"><a title="Сайт с безплатни обяви" href="http://www.ekoplanin.bg/" target="_blank"><span style="color: #0000ff;">Ekoplanin.bg</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://sofimoti.com" target="_blank"><span style="color: #0000ff;">Sofimoti.com</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://imoti.bgkvartiri.com/" target="_blank"><span style="color: #0000ff;">Imoti.bgkvartiri.com</span></a><span style="color: #0000ff;">,</span><span style="color: #000000;">    </span></span><a class="undefined" title="Сайт с обяви - Обяви биз" href="http://www.obiavi.biz/" target="_blank"><span style="color: #0000ff;">Obiavi.biz</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.bezplatno.net/" target="_blank"><span style="color: #0000ff;">Bezplatno.net</span></a>,    <a title="Сайт с безплатни обяви" href="http://www.burkan.info/" target="_blank"><span style="color: #0000ff;">Burkan.info</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://stikni.com/" target="_blank"><span style="color: #0000ff;">Stikni.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.bezplatniobyavi.com/" target="_blank"><span style="color: #0000ff;">Bezplatniobyavi.com</span></a>,    <a title="Сайт с безплатни обяви" href="http://eobiava.com/" target="_blank"><span style="color: #0000ff;">Eobiava.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.bitak.net/" target="_blank"><span style="color: #0000ff;">Bitak.net</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://obox1.com/" target="_blank"><span style="color: #0000ff;">Obox1.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.rent.bg/" target="_blank"><span style="color: #0000ff;">Rent.bg</span></a>,    <a title="Сайт с безплатни обяви" href="http://tigbg.eu/" target="_blank"><span style="color: #0000ff;">Tigbg.eu</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.foroagrosfera.com" target="_blank"><span style="color: #0000ff;">Foroagrosfera.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.bgpazar.com" target="_blank"><span style="color: #0000ff;">Bgpazar.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.malkiobiavi.net/" target="_blank"><span style="color: #0000ff;">Malkiobiavi.net</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.oxily.com/" target="_blank"><span style="color: #0000ff;">Oxily.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.bitak.info/" target="_blank"><span style="color: #0000ff;">Bitak.info</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.bgobiavi.net/" target="_blank"><span style="color: #0000ff;">Bgobiavi.net</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://obiavata.com/" target="_blank"><span style="color: #0000ff;">Obiavata.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://mahalata.com/" target="_blank"><span style="color: #0000ff;">Mahalata.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.topobiavi.com/" target="_blank"><span style="color: #0000ff;">Topobiavi.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://alo.bg/" target="_blank"><span style="color: #0000ff;">Alo.bg</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.obiavi-bg.com/" target="_blank"><span style="color: #0000ff;">Obiavi-bg.com</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://borsa.bg/" target="_blank"><span style="color: #0000ff;">Borsa.bg</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.predloji.com/" target="_blank"><span style="color: #0000ff;">Predloji.com</span></a><span style="color: #0000ff;">, </span><a title="Сайт с безплатни обяви" href="http://www.sega4you.com/" target="_blank"><span style="color: #0000ff;">Sega4you.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.dalavera.com/" target="_blank"><span style="color: #0000ff;">Dalavera.com</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://obiavi.org" target="_blank"><span style="color: #0000ff;">Obiavi.org</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.obiavite.info/" target="_blank"><span style="color: #0000ff;">Obiavite.info</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://kupuvam-prodavam.info/" target="_blank"><span style="color: #0000ff;">Kupuvam-prodavam.info</span></a><span style="color: #0000ff;">,   </span><a title="Сайт с безплатни обяви" href="http://ottyk-ottam.com/" target="_blank"><span style="color: #0000ff;">Ottyk-ottam.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.dobrichplus.com/" target="_blank"><span style="color: #0000ff;">Dobrichplus.com</span></a>,    <a title="Сайт с безплатни обяви" href="http://obiavitel.org/" target="_blank"><span style="color: #0000ff;">Obiavitel.org</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.pazzar.net/" target="_blank"><span style="color: #0000ff;">Pazzar.net</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.prodava.com/" target="_blank"><span style="color: #0000ff;">Prodava.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://imoti.oferti.net/" target="_blank"><span style="color: #0000ff;">Imoti.oferti.net</span></a><span style="color: #0000ff;">,    <a title="Сайт с безплатни обяви" href="http://brokeri.org/" target="_blank"><span style="color: #0000ff;">Brokeri.org</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://www.naemite.com/" target="_blank"><span style="color: #0000ff;">Naemite.com</span></a><span style="color: #0000ff;">,    </span><a title="Сайт с безплатни обяви" href="http://svetco.net/" target="_blank"><span style="color: #0000ff;">Svetco.net</span></a></span></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 09:51:30</date_added>
+        <date_modified>2008-06-22 11:35:22</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>40499</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30489</n>
+        <an>0</an>
+        <ParentPage>30837</ParentPage>
+        <Name>Българинът живее в затворен комплекс заради сигурността</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Сред останалите критерии за покупка са местоположението, гледката, удобствата и социалната среда</p>
+<p><a href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579" title="Новини за недвижими имоти"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316" title="Новини свързани с цените на надвижимите имоти"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       </strong></span><a href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316" title="Цени на недвижимите имоти"><span style="color: #008000;"><strong>СТАТИСТИКА </strong></span></a><span style="color: #ff0000;"><strong>   </strong></span><a href="http://www.look-estates.com/page.php?n=30639&SiteID=507" title="Сайтове на медии"><span style="color: #ff6600;"><strong>МЕДИИ</strong></span></a></p>
+<p>Сигурността и спокойствието са най-търсени при покупката на жилище в комплекс с контролиран достъп у нас. След това се нареждат: на второ място - комуникативността и местоположението, на трето - гледката, на четвърто - околната среда (зеленина, чист въздух), на пето - допълнителните удобства, които спестяват време на заетия човек, на шесто - архитектурната концепция, на седмо - социалният статус на съседите. Цената е на едно от последните места при избор на жилище в затворен комплекс. Това показват резултатите от неформалното проучване на Winslow Developments (Уинслоу Дивелъпмънтс) - инвеститор в първия екологично проектиран комплекс у нас Winslow Gardens (Уинслоу Гардънс). От компанията споделят, че проучването е сред техни потенциални и настоящи клиенти, но то отразява в много голяма степен предпочитанията и профила на хората, които искат да живеят в затворен комплекс. Липсата на непознати във входа и на детската площадка са част от критериите за «спокойствие”, които се свързват с комплексите от затворен тип. Бързият достъп до центъра и същевременно просторната гледка към Витоша са предпочитани от динамичните клиенти. Зелени площи, ниско строителство, голямо отстояние и липса на коли между сградите са също търсени критерии. Сред допълнителните удобства на комплексите клиентите изброяват личното парко-място, магазините, химическото чистене, СПА центъра, игрището за минифутбол и баскетбол и басейна - само на броени метри от дома. 84% от клиентите на Winslow Gardens са семейни. Близо 60% от тях имат деца. Затова наличието на детска занималня, площадка за игра, безопасни алеи, парк и антиалергични растения в затворения комплекс са важни удобства за тях, споделя Ласка Ненова, Търговски директор на Winslow Developments. От компанията допълват, че над 60% от хората, закупили жилище в Winslow Gardens, са собственици на малък и среден бизнес. 31% заемат ръководни позиции в български и международни компании. Най-много са заетите в сферата на услугите (45%), като преобладаващата част от тях са в IT бранша. Следват ги работещите в сферата на търговията - 22%. Недвижими имоти, маркетинг и реклама, политика, банки и финанси, юридически науки и архитектура са сред останалите сфери на дейност на купувачите. </p>
+<p> <strong>Profit.bg</strong></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>20299</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 14:15:26</date_added>
+        <date_modified>2008-07-03 09:00:24</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30680</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30493</n>
+        <an>0</an>
+        <ParentPage>34675</ParentPage>
+        <Name>Ролята за знаменитостите в света на недвижимите имоти</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Строителните предприемачи в емирство Дубай, известно с грандиозните си проекти,</p>
+<p><a href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579" title="Новини за недвижими имоти"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316" title="Новини свързани с цените на надвижимите имоти"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       </strong></span><a href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316" title="Цени на недвижимите имоти"><span style="color: #008000;"><strong>СТАТИСТИКА </strong></span></a><span style="color: #ff0000;"><strong>   <a href="http://www.look-estates.com/page.php?n=30639&SiteID=507" title="Сайтове на медии"><span style="color: #ff6600;"><strong>МЕДИИ</strong></span></a></strong></span></p>
+<p>все по-често се обръщат към американски и европейски знаменитости за съдействие при продажба на имоти на богати клиенти, съобщава The Wall Street Journal.</p>
+<p>Последната звезда, която ще даде своя принос за един от проектите, е Брад Пит, който ще проектира петзвезден хотел и курорт за компанията Zabeel Properties. Хотелът, който ще има 800 стаи, ще е с природосъобразна архитектура, казва Брат Пит. Актьорът ще работи заедно с Graft LLC, архитектурна фирма, базирана в Лос Анжелис.</p>
+<p>Пит се присъединява към тенисиста Борис Бекер, модния дизайнер Джорджо Армани и голф играчите Грег Норман и Тайгър Уудс, които са заложили репутацията си с цел да помогнат на брокерите на недвижими имоти от Дубай да привлекат заможни чужденци.</p>
+<p>Проектът на Армани, включващ апартаменти и хотел, който се строи от компанията Emaar Properties, ще се състезава с Palazzo Versace, хотел, чието обзавеждане ще бъде подбрано от конкурентния дизайнер – Донатела Версаче.</p>
+<p>„Брандингът на недвижими имоти, който включва световни знаменитости, тук е в мащаб, който не е бил достиган на никой друг пазар“, казва Блеър Хъгкъл, управляващ директор на Jones Lang LaSalle за Близкия Изток.</p>
+<p>Помпозният маркетинг, който използва знаменитости да продава жилища и да пълни хотелски стаи и офис площи, обаче не е гаранция, че проектите ще бъдат успешни. Преди няколко години в Лас Вегас няколко проекта за апартаменти, асоциирани със звезди като бейзболиста Реджи Джаксън и актьора Джордж Клуни, са били отменени, когато е станало ясно, че пазарът е презастроен. В днешни дни, Лас Вегас е един от най-ужасните жилищни пазара в САЩ.</p>
+<p>От друга страна, пазарът в Дубай, където в момента масово се ангажират звезди за промотиране на даден проект, в момента се радва на силен интерес.</p>
+<p>Според базираната в Дубай изследователска компания Proleads около 2,4 трлн. долара са инвестирани в проекти в процес на изграждане в богатия на петрол регион, включващ Саудитска Арабия, Кувейт, Бахрейн, Катар, Обединените арабски емирства и Оман. Само Дубай, второто по големина емирство в Обединените арабски емирства след Абу Даби, очаква инвестиции в недвижими имоти на стойност 50 млрд. долара до 2010 г.</p>
+<p>Засега продажбите остават интензивни. Вили, долепени до голф игрище, проектирано и подкрепено от Грег Норман, са били разпродадени за седмица според строителя по проекта. Цените варират между 4 млн. долара и 8 млн. долара.</p>
+<p>Манията към знаменитостите на пазара за недвижими имоти в Дубай се задълбочава толкова, че се търсят дори звездите с по-нисък рейтинг. Ликът на Ники Лауда, пилот от Формула 1, който става известен с почти смъртоносна автомобилна катастрофа през 1976 г., ще бъде изобразен на една от трите офис кули в Дубай, планирани от ACI Real Estate. По данни от ACI кулите ще покриват площ от 1486 кв. м и ще са разположени в близост до подобни офис сгради, кръстени на Бори Бекер и Михаел Шумахер, които са част от проект на име Business Bay.</p>
+<p>„Подкрепата от знаменитостите има смисъл, когато добавя стойност към даден проект и когато има директна корелация между тази знаменитост и проекта,“ казва Хъгкъл.</p>
+<p><strong><em>ImotiInvestor.bg</em></strong></p>
+<p><a href="http://www.look-estates.com/page.php?n=28669&SiteID=507" title="Информация и имоти в Дубай"><strong><span style="color: #0000ff;">Информация и имоти в Дубай</span></strong></a></p>
+<p><strong><a href="http://www.look-estates.com/page.php?n=27039&SiteID=507" title="Имоти в Дубай">виж<span style="color: #0000ff;">  Дубай</span></a></strong></p>
+<p><strong></strong></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>23014</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 22:32:20</date_added>
+        <date_modified>2008-08-16 20:09:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30744</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30494</n>
+        <an>0</an>
+        <ParentPage>30833</ParentPage>
+        <Name>Лакшми Митал купи най-скъпата къща в света </Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Името на спрягания за нов президент на „Кремиковци“ Лакшми Митал,</p>
+<p><a href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579" title="Новини за недвижими имоти"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316" title="Новини свързани с цените на надвижимите имоти"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       </strong></span><a href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316" title="Цени на недвижимите имоти"><span style="color: #008000;"><strong>СТАТИСТИКА </strong></span></a><span style="color: #ff0000;"><strong>   </strong></span><a href="http://www.look-estates.com/page.php?n=30639&SiteID=507" title="Сайтове на медии"><span style="color: #ff6600;"><strong>МЕДИИ</strong></span></a></p>
+<p>който е и в челната листа на най-богатите мъже на земното кълбо, отново влезе в новините. След най-скъпия апартамент в света и след начинанието за най-скъпа резиденция на Мукеш Амбани, този път другият индиец сред най-богатите Лакшми Митал е решил, че ще притежава най-скъпата къща на земята. И ще го направи-срещу 230 милиона долара! <br /><br />Официално най-скъпата къща в света се намира в Западен Лондон и е закотвена на улицата, на която живееше дори Лейди Даяна. Кенсингтън Палас Гардънс е името на улицата, известна и като - Улицата на милиардерите. Официално само квадратен метър земя в престижния квартал струва рекордните 15 862 долара! <br /><br />Бъдещата къща на Лакшми Митал е подобаващ дом за мъжа, чието имотно състояние се равнява на 22 милиарда долара. Предишният дом на Митал бе също в Англия, но бе по-скромен-само 12 спални и при това само с 50 милиона долара по-малко. Новата си придобивка Лакшми закупил заедно с мебелите, повечето от които били произведение на изкуството. Цената на новата къща на Митал удари предишния рекорд за най-скъпа къща в света, който бе отбелязан през февруари за сумата от 220 милиона долара.</p>
+<p><strong>Milionare.bg</strong></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>23015</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 23:00:19</date_added>
+        <date_modified>2008-07-03 09:01:21</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30745</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30495</n>
+        <an>0</an>
+        <ParentPage>28760</ParentPage>
+        <Name>Пазарът на недвижими имоти ще остане стабилен с 20% ръст</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Управляващият съдружник в Home for you Константин Бобчев:</p>
+<p><a title="Новини за недвижими имоти" href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a title="Новини свързани с цените на надвижимите имоти" href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       </strong></span><a title="Цени на недвижимите имоти" href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316"><span style="color: #008000;"><strong>СТАТИСТИКА </strong></span></a><span style="color: #ff0000;"><strong>   <a title="Сайтове на медии" href="http://www.look-estates.com/page.php?n=30639&SiteID=507"><span style="color: #ff6600;"><strong>МЕДИИ</strong></span></a></strong></span></p>
+<p><strong> Господин Бобчев, бихте ли очертали тенденциите на пазара за недвижими имоти у нас? Можем ли да говорим за известно забавяне в развитието му?<br /></strong> - Понастоящем, пазарът на недвижими имоти в България е относително стабилен. Предвиждаме, че както миналата, така и тази година, ръстът ще е между 15 и 20%, което е много благоприятна тенденция за хората, които смятат да инвестират в този сектор. Някои анализатори заявиха, че се наблюдава известно забавяне в развитието на пазара. Нe съм съгласен с подобно твърдение - нито са намалели сделките, нито е намалял интересът от страна на потребителите. Обяснението е просто - удължило се е малко времето на клиентите за избор на съответния продукт. Факторите, които стимулират тази промяна в предпочитанията, в никакъв случай не са обезпокояващи, напротив, те са много обнадеждаващи. По-голямата взискателност на крайните клиенти е движеща сила за създаване и разработване на по-хубав и по-качествен продукт.<br /><strong> - В кой сегмент от сектора търсенето е най-голямо за първото полугодие на 2008  г.? Наблюдава ли се изравняване на търсенето и предлагането и има ли опасност някои от проектите да не се реализират на очакваните нива?<br /></strong> - На пазара има засилен интерес към определени продукти и съответно се наблюдава спад на търсенето на други. Например в София се търсят  жилища от по-качествени материали, разположени в по-благоприятни райони. За  столицата определено това е южната част  и най-вече крайградските зони, за сметка на относително слабото търсене на по-евтините не толкова популярни квартали на столицата като "Дружба" и "Обеля". Доскоро в столицата се приемаше за най-престижен квартал "Лозенец". Смятам, че този квартал наред с централната част на града никога няма да загуби привлекателността си за клиентите, но постепенно наравно с тях се нареждат и други зони като тези близо до Витоша. Подобряването на комуникацията, изграждането и разширяването на някои булеварди в това число и на Околовръстното шосе неминуемо ще доведат до фокусиране на вниманието към крайградските зони. По-цял свят е известно, че хората, които искат по-добра среда на живот, бягат от центъра към атрактивните, озеленени крайградски зони. Това явление постепенно  навлиза и в нашата страна. Българинът започна все повече да харесва и предпочита и един сравнително нов продукт - затворените комплекси. Начинът на организация в затворения комплекс освобождава хората от всякакви притеснения и предоставя грижа за техния комфорт и безопасност. В момента също има нарастващо търсене на офис площи, което ни дава основание да смятаме, че потенциалът на столицата, специално за офис площите, далеч не е достигнат. Вероятно в бъдеще, пазарът ще достигне своята зрелост, но в момента определено търсенето в този сектор превишава предлагането. Клиентите се насочват към по-добрия продукт, склонни са да платят, ако е необходимо, малко повече за офис от по-висок клас, отколкото да направят компромис с качеството. <br /><strong> - Какво е вашето мнение за ръста на ценовите равнища в сектора? Не смятате ли, че има известно надценяване на недвижимите имоти? <br /></strong>- В определени сектори на пазара и в някои райони вероятно има известно надценяване. Но увеличаването на цените на жилищата и на офисите в момента не е чисто спекулативно и не можем да говорим като цяло за ценови балон. По-голямата взискателност на самите клиенти принуди строителите и инвеститорите да увеличат много себестойността на предлагания продукт като следствие от по-високото качество на вложените материали, подобряването на локацията на обектите им и най-вече поради подобреното качеството на околната инфраструктура. Това естествено увеличава и крайната цена на обекта, така че предлагането на по-високи цени на стойностните и хубавите проекти е обосновано. За чисто спекулативно увеличаване на цената можем да говорим при някои не толкова стойностни проекти.<br /><strong> - Смятате ли, че има промяна в начина  на застрояване? Как мислите, че ще се развие застрояването в бъдеще?<br /></strong> - Смятам, че на този въпрос може да се отговори единствено, като се изходи от това на каква позиция в момента е пазарът. Инвеститорите трябва да се насочат не толкова към това, което се търси, а да проектират това, което ще се търси в бъдеще, да се движат с една крачка напред.  Текущите тенденции са  клиентите да се стремят към все по-облагородена зона около техните жилища. Много строители започнаха да предлагат хубави жилища, с високо качество, но не всички обърнаха внимание на създаването на по-подходяща околна среда. Именно затова смятам, че бъдещето е в проектите, в които до голяма степен е засегнато озеленяването. Най-търсени са добре организираните затворени комплекси. Вече не е достатъчно да се строят качествени сгради с добри материали, замислени  и проектирани функционално, защото това започва да се превръща в стандарт. Това, което разграничава стойностните проекти от другите, е вниманието отделено за изграждане на околна среда, доброто озеленяване и мисълта за последващия пропърти мениджмънт, защото това се цени  и  ще се цени от клиентите.<br /><strong> - Какво мислите за проблема с паркирането и движението в големите градове в България и как може този проблем да бъде разрешен?<br /></strong>Смятам, че проблемите с паркирането в големите градове в България тепърва предстоят. Проблемът с паркирането е в две насоки - едната е новостроящите се сгради с търговски площи и офиси, а другата -  чисто жилищните зони. Българинът вече придоби култура, купувайки си офис или наемайки такъв,  да заплаща и за паркомясто. Друг въпрос е дали съответните проекти предоставят тази възможност. В проектите, които в момента излизат на пазара, трябва задължително да се предвиждат достатъчен брой паркоместа за един апартамент или офис. Не съветвам инвеститорите изобщо да започват проекти, в които да подценяват необходимостта от паркоместа.</p>
+<p>Вестник <strong>Монитор</strong></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>19797</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-22 23:12:43</date_added>
+        <date_modified>2008-06-24 11:10:38</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30495</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30542</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Bta.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="БТА - Българска телеграфна агенция - новини" href="http://www.bta.bg" target="_blank"><img title="БТА - Българска телеграфна агенция - новини" src="web/images/upload/Bta.jpg" alt="БТА - Българска телеграфна агенция - новини" width="88" height="40" /></a>     БТА</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:46:06</date_added>
+        <date_modified>2008-06-24 10:40:48</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30542</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30541</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Sofiadnes.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="София днес - новини и информация за София" href="http://www.sofiadnes.com/" target="_blank"><img title="София днес - новини и информация за София" src="web/images/upload/Sofadnes.jpg" alt="София днес - новини и информация за София" width="88" height="40" /></a>  София днес</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:44:29</date_added>
+        <date_modified>2008-06-24 10:40:11</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30541</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30544</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Btv.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="БТВ медия - телевизия, новини, реклама" href="http://www.btv.bg/" target="_blank"><img title="БТВ медия - телевизия, новини, реклама" src="web/images/upload/Btv.jpg" alt="БТВ медия - телевизия, новини, реклама" width="88" height="40" /></a>      БТВ</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:46:55</date_added>
+        <date_modified>2008-06-24 10:41:10</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30544</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30546</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Focus-news.net</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Агенция Фокус - информация, новини" href="http://www.focus-news.net/" target="_blank"><img title="Агенция Фокус - информация, новини" src="web/images/upload/Focus.jpg" alt="Агенция Фокус - информация, новини" width="88" height="40" /></a>  Агенция Фокус</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:47:34</date_added>
+        <date_modified>2008-06-24 10:41:35</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30546</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30550</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Mediapool.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Медиапул - интернет медия, новини, събития" href="http://www.mediapool.bg/" target="_blank"><img title="Медиапул - интернет медия, новини, събития" src="web/images/upload/Mediapool.jpg" alt="Медиапул - интернет медия, новини, събития" width="88" height="40" /></a>   Медиапул</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:49:58</date_added>
+        <date_modified>2008-06-24 10:42:44</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30550</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30548</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Dariknews.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Дарик Нюз - информационна агенция, новини" href="http://dariknews.bg/" target="_blank"><img title="Дарик Нюз - информационна агенция, новини" src="web/images/upload/Dariknews.jpg" alt="Дарик Нюз - информационна агенция, новини" width="88" height="40" /></a>  Дарик нюз</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:48:21</date_added>
+        <date_modified>2008-06-24 10:41:53</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30548</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30549</n>
+        <an>0</an>
+        <ParentPage>37940</ParentPage>
+        <Name>Svejo.net</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a target="_blank" href="http://svejo.net/" title="Свежо - социална мрежа за споделяне на информация"><img width="88" src="web/images/upload/SvejoNet.jpg" alt="Свежо - социална мрежа за споделяне на информация" height="40" title="Свежо - социална мрежа за споделяне на информация" /></a>   Свежо</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:49:03</date_added>
+        <date_modified>2008-10-17 13:20:41</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30549</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30551</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>News.ibox.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Нюз Бг - информация, новини, събития" href="http://news.ibox.bg/" target="_blank"><img title="Нюз Бг - информация, новини, събития" src="web/images/upload/News.bg.jpg" alt="Нюз Бг - информация, новини, събития" width="88" height="40" /></a>   Нюз бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:50:58</date_added>
+        <date_modified>2008-06-24 10:43:29</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30551</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30552</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Dnes.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Днес Бг - информация, новини, събития" href="http://www.dnes.bg/" target="_blank"><img title="Днес Бг - информация, новини, събития" src="web/images/upload/Dnes.bg.jpg" alt="Днес Бг - информация, новини, събития" width="88" height="40" /></a>   Днес бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:52:12</date_added>
+        <date_modified>2008-06-24 10:44:05</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30552</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30553</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Dir.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Дир Бг Новини - информация и медии" href="http://novini.dir.bg/" target="_blank"><img title="Дир Бг Новини - информация и медии" src="web/images/upload/Dirbg.jpg" alt="Дир Бг Новини - информация и медии" width="88" height="40" /></a>    Дир бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:52:57</date_added>
+        <date_modified>2008-06-24 10:44:22</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30553</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30554</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Netinfo.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Нет Инфо - информация и новини" href="http://www.netinfo.bg/" target="_blank"><img title="Нет Инфо - информация и новини" src="web/images/upload/Netinfo.jpg" alt="Нет Инфо - информация и новини" width="88" height="40" /></a>   Нет инфо</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:53:26</date_added>
+        <date_modified>2008-06-24 10:44:40</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30554</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30555</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Dnevnik.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Дневник - делови ежедневник, новини, бизнес" href="http://www.dnevnik.bg/" target="_blank"><img title="Дневник - делови ежедневник, новини, бизнес" src="web/images/upload/Dnevnik.jpg" alt="Дневник - делови ежедневник, новини, бизнес" width="88" height="40" /></a>   Дневник</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:53:57</date_added>
+        <date_modified>2008-06-24 10:45:01</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30555</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30560</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Monitor.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Монитор - ежедневник за новини, бизнес, имоти" href="http://www.monitor.bg/" target="_blank"><img title="Монитор - ежедневник за новини, бизнес, имоти" src="web/images/upload/Monitor.jpg" alt="Монитор - ежедневник за новини, бизнес, имоти" width="88" height="40" /></a>   Монитор</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:57:08</date_added>
+        <date_modified>2008-06-24 10:46:17</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30560</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30561</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Standartnews</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Стандарт - ежедневник за информация и новини" href="http://standartnews.com" target="_blank"><img title="Стандарт - ежедневник за информация и новини" src="web/images/upload/Standart.jpg" alt="Стандарт - ежедневник за информация и новини" width="88" height="40" /></a>   Стандарт</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:57:33</date_added>
+        <date_modified>2008-06-24 10:47:46</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30561</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30562</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Novinar.net</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Новинар - ежедневник за информация и новини" href="http://www.novinar.net/" target="_blank"><img title="Новинар - ежедневник за информация и новини" src="web/images/upload/Novinar.jpg" alt="Новинар - ежедневник за информация и новини" width="88" height="40" /></a>  Новинар</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:58:52</date_added>
+        <date_modified>2008-06-24 10:48:04</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30562</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30563</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Segabg.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Сега - ежедневник за информация и новини" href="http://www.segabg.com" target="_blank"><img title="Сега - ежедневник за информация и новини" src="web/images/upload/SegabgCom.jpg" alt="Сега - ежедневник за информация и новини" width="88" height="40" /></a>     Сега</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 15:59:43</date_added>
+        <date_modified>2008-06-24 10:48:22</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30563</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30564</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Capital.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Капитал - седмичник за бизнес, икономика, анализи" href="http://www.capital.bg/" target="_blank"><img title="Капитал - седмичник за бизнес, икономика, анализи" src="web/images/upload/Capital.jpg" alt="Капитал - седмичник за бизнес, икономика, анализи" width="88" height="40" /></a>  Капитал</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:01:12</date_added>
+        <date_modified>2008-06-24 10:48:39</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30564</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30566</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Investor.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Инвестор Бг - бизнес, анализи, новини, статистика, пазари" href="http://www.investor.bg/" target="_blank"><img title="Инвестор Бг - бизнес, анализи, новини, статистика, пазари" src="web/images/upload/Investor.jpg" alt="Инвестор Бг - бизнес, анализи, новини, статистика, пазари" width="88" height="40" /></a>  Инвестор бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:01:48</date_added>
+        <date_modified>2008-06-24 10:48:59</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30566</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30567</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Econ.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Екон Бг - икономика, бизнес, анализи, новини" href="http://www.econ.bg/" target="_blank"><img title="Екон Бг - икономика, бизнес, анализи, новини" src="web/images/upload/Econ.bg.jpg" alt="Екон Бг - икономика, бизнес, анализи, новини" width="88" height="40" /></a>     Екон бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:02:30</date_added>
+        <date_modified>2008-06-24 10:49:27</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30567</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30568</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Money.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Мъни Бг - бизнес, пазари, икономика, новини, пари" href="http://money.ibox.bg/" target="_blank"><img title="Мъни Бг - бизнес, пазари, икономика, новини, пари" src="web/images/upload/Money.jpg" alt="Мъни Бг - бизнес, пазари, икономика, новини, пари" width="88" height="40" /></a>      Мъни бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:03:25</date_added>
+        <date_modified>2008-06-24 10:49:44</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30568</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30569</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Ipo.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Ипо Бг - бизнес, пари, пазари, анализи, цени" href="http://www.ipo.bg/" target="_blank"><img title="Ипо Бг - бизнес, пари, пазари, анализи, цени" src="web/images/upload/Ipo.bg.jpg" alt="Ипо Бг - бизнес, пари, пазари, анализи, цени" width="88" height="40" /></a>       Ипо бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:03:50</date_added>
+        <date_modified>2008-06-24 10:50:00</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30569</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30570</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Expert.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Експерт Бг - бизнес, новини, анализи, цени, пари" href="http://www.expert.bg/" target="_blank"><img title="Експерт Бг - бизнес, новини, анализи, цени, пари" src="web/images/upload/Expert.bg.jpg" alt="Експерт Бг - бизнес, новини, анализи, цени, пари" width="88" height="40" /></a>  Експерт бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:04:15</date_added>
+        <date_modified>2008-06-24 10:50:16</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30570</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30572</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Pari.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Пари - ежедневник за бизнес, анализи, пазари, цени" href="http://www.pari.bg/" target="_blank"><img title="Пари - ежедневник за бизнес, анализи, пазари, цени" src="web/images/upload/Pari.jpg" alt="Пари - ежедневник за бизнес, анализи, пазари, цени" width="88" height="40" /></a>    Пари</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:06:05</date_added>
+        <date_modified>2008-06-24 10:50:34</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30572</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30573</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Banker.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Банкер - банки, пари, бизнес, пазари, кредити, цени" href="http://www.banker.bg/" target="_blank"><img title="Банкер - банки, пари, бизнес, пазари, кредити, цени" src="web/images/upload/Banker.jpg" alt="Банкер - банки, пари, бизнес, пазари, кредити, цени" width="88" height="40" /></a>   Банкеръ</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:06:47</date_added>
+        <date_modified>2008-06-24 10:50:56</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30573</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30574</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Profit.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Профит Бг - бизнес, новини, анализи, имоти, цени" href="http://www.profit.bg/" target="_blank"><img title="Профит Бг - бизнес, новини, анализи, имоти, цени" src="web/images/upload/Profit.bg.jpg" alt="Профит Бг - бизнес, новини, анализи, имоти, цени" width="88" height="40" /></a>   Профит бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:07:28</date_added>
+        <date_modified>2008-06-24 10:51:11</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30574</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30575</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Lev.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Лев Бг - бизнес, анализи, пазари, новини, цени, пари" href="http://www.lev.bg/" target="_blank"><img title="Лев Бг - бизнес, анализи, пазари, новини, цени, пари" src="web/images/upload/Lev.bg.jpg" alt="Лев Бг - бизнес, анализи, пазари, новини, цени, пари" width="88" height="40" /></a>      Лев бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:07:51</date_added>
+        <date_modified>2008-06-24 10:51:33</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30575</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30576</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Lex.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Лекс Бг - право, юридическа информация, закони" href="http://www.lex.bg/" target="_blank"><img title="Лекс Бг - право, юридическа информация, закони" src="web/images/upload/Lex.bg.jpg" alt="Лекс Бг - право, юридическа информация, закони" width="88" height="40" /></a>    Лекс бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:08:25</date_added>
+        <date_modified>2008-06-24 10:52:03</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30576</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30577</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Actualno.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Актуално Ком - новини, анализи, събития, бизнес" href="http://www.actualno.com/" target="_blank"><img title="Актуално Ком - новини, анализи, събития, бизнес" src="web/images/upload/Actualno.jpg" alt="Актуално Ком - новини, анализи, събития, бизнес" width="88" height="40" /></a>  Актуално ком</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:08:48</date_added>
+        <date_modified>2008-06-24 10:52:20</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30577</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30578</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Bpost.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Бпост Бг - информация, новини, събития" href="http://www.bpost.bg/" target="_blank"><img title="Бпост Бг - информация, новини, събития" src="web/images/upload/Bpost.bg.jpg" alt="Бпост Бг - информация, новини, събития" width="88" height="40" /></a>        Бг пост</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:10:11</date_added>
+        <date_modified>2008-06-24 10:52:37</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30578</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30579</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Bgnewsroom</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Бг Нюзрум - икономика, политика, новини, събития" href="http://bgnewsroom.com/" target="_blank"><img title="Бг Нюзрум - икономика, политика, новини, събития" src="web/images/upload/BgnewsroomCom.jpg" alt="Бг Нюзрум - икономика, политика, новини, събития" width="88" height="40" /></a>     Нюз рум</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:10:52</date_added>
+        <date_modified>2008-06-24 10:53:02</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30579</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30580</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Bgfactor.org</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Бг Фактор - икономика, политика, новини, бизнес" href="http://www.bgfactor.org/" target="_blank"><img title="Бг Фактор - икономика, политика, новини, бизнес" src="web/images/upload/Bgfactor.jpg" alt="Бг Фактор - икономика, политика, новини, бизнес" width="88" height="40" /></a>        Бг Фактор</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:11:59</date_added>
+        <date_modified>2008-06-24 10:53:22</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30580</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30581</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>News24.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Нюз24 Бг - новини, събития, политика, икономика" href="http://news24.bg/" target="_blank"><img title="Нюз24 Бг - новини, събития, политика, икономика" src="web/images/upload/News24.bg.jpg" alt="Нюз24 Бг - новини, събития, политика, икономика" width="88" height="40" /></a>       Нюз 24</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:13:09</date_added>
+        <date_modified>2008-06-24 10:53:40</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30581</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30585</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Factor-bs.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Фактор - новини, събития, култура" href="http://www.factor-bs.com/" target="_blank"><img title="Фактор - новини, събития, култура" src="web/images/upload/Factor-sfCom.jpg" alt="Фактор - новини, събития, култура" width="88" height="40" /></a>  Фактор онлайн</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:15:17</date_added>
+        <date_modified>2008-06-24 10:53:56</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30585</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30586</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Topnovini.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Топновини Ком - актуални новини от медииния пазар" href="http://www.topnovini.com/" target="_blank"><img title="Топновини Ком - актуални новини от медииния пазар" src="web/images/upload/TopnoviniCom.jpg" alt="Топновини Ком - актуални новини от медииния пазар" width="88" height="40" /></a>  Топновини ком</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:16:08</date_added>
+        <date_modified>2008-06-24 10:54:11</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30586</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30591</n>
+        <an>0</an>
+        <ParentPage>37940</ParentPage>
+        <Name>Novinitednes</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a target="_blank" href="http://www.novinitednes.com/" title="Новините Днес - мрежа са споделяне на новини"><img width="88" src="web/images/upload/NoviniteDnes.jpg" alt="Новините Днес - мрежа са споделяне на новини" height="40" title="Новините Днес - мрежа са споделяне на новини" /></a>  Новините днес</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:20:53</date_added>
+        <date_modified>2008-10-17 13:22:17</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30591</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30595</n>
+        <an>0</an>
+        <ParentPage>30639</ParentPage>
+        <Name>Sinoptik.bg</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a title="Синоптик Бг - прогнози за времето по градове" href="http://sinoptik.bg/" target="_blank"><img title="Синоптик Бг - прогнози за времето по градове" src="web/images/upload/Sinoptic.bg.jpg" alt="Синоптик Бг - прогнози за времето по градове" width="88" height="40" /></a>  Синоптик бг</p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-23 16:22:28</date_added>
+        <date_modified>2008-06-24 10:55:55</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30595</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30639</n>
+        <an>0</an>
+        <ParentPage>37939</ParentPage>
+        <Name>НАЦИОНАЛНИ МЕДИИ</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Основните медии в България</p>
+<p><a href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579" title="Новини за недвижими имоти"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316" title="Новини свързани с цените на надвижимите имоти"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       <a href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316" title="Цени на недвижимите имоти"><span style="color: #008000;">СТАТИСТИКА</span></a></strong></span><span style="color: #008000;"><strong> </strong></span>    <strong><a href="http://www.look-estates.com/page.php?n=26370&SiteID=507" title="Търсачки за имоти">ТЪРСАЧКИ </a></strong></p>
+<p><a href="http://www.look-estates.com/page.php?n=27192&SiteID=507" title="Имоти в София"><span style="color: #0000ff;">София</span></a>  <a href="http://www.look-estates.com/page.php?n=27198&SiteID=507" title="Имоти в Пловдив"><span style="color: #0000ff;">Пловдив</span></a>  <a href="http://www.look-estates.com/page.php?n=27199&SiteID=507" title="Имоти във Варна"><span style="color: #0000ff;">Варна</span></a>  <a href="http://www.look-estates.com/page.php?n=27200&SiteID=507" title="Имоти във Бургас"><span style="color: #0000ff;">Бургас</span></a>  <a href="http://www.look-estates.com/page.php?n=27246&SiteID=507" title="Имоти в Русе"><span style="color: #0000ff;">Русе</span></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>6</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>6</show_link_cols>
+        <make_links>0</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>28678</imageNo>
+        <imageWidth>0</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-24 10:39:33</date_added>
+        <date_modified>2008-10-17 13:22:40</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>31263</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30662</n>
+        <an>0</an>
+        <ParentPage>28776</ParentPage>
+        <Name>Imotite.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><strong>Imotite.com</strong> e виртуален портал за недвижими имоти, който обединява офертите за покупко-продажби, наемане, отдаване и заменяне на имоти, предлагани от агенциите в бранша, строителните фирми и частните лица.</p>
+<p> </p>
+<p>Цялата информация за предлаганите имоти е организирана в база данни и достъпа до нея е осигурен според нуждите на клиента - чрез бързото или разширеното търсене.</p>
+<p> </p>
+<p>Публикуването на имот става бързо и лесно, а регистрацията не е задължителна.</p>
+<p> </p>
+<p>В секцията <strong style="mso-bidi-font-weight: normal;">моят бележник</strong>, могат да се запазят конкретни имоти или търсения.</p>
+<p> </p>
+<p>Услугата <strong style="mso-bidi-font-weight: normal;">email брокер</strong> информира клиентите ни на email за публикуването на всяка нова обява, отговаряща на техните критерии за търсене на имот.</p>
+<p>Има възможност за въвеждане на 3 Email Брокера с различни критерии на търсене.</p>
+<p> </p>
+<p>Клиентите ни имат постоянен достъп до представянето на своите имоти на нашата страница.</p>
+<p>Mогат да добавят, изтриват и променят информацията по тяхно усмотрение, както и да се информират колко пъти е разгледан имотът им.</p>
+<p> </p>
+<p>На imotite.com има много полезна информация, статии и интересни съвети, както и ежедневен <strong style="mso-bidi-font-weight: normal;">мониторинг</strong> на новините за недвижими имоти.</p>
+<p> </p>
+<p><a class="undefined" title="Търсачки за имоти" href="http://www.look-estates.com/page.php?n=26370&SiteID=507&view_id=26370" target="_self"><span style="color: #000000;">Виж -</span> <span style="color: #0000ff;"><strong>Търсачки за имоти</strong></span></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>23217</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-24 13:06:45</date_added>
+        <date_modified>2008-06-24 13:11:20</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30662</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30663</n>
+        <an>0</an>
+        <ParentPage>28776</ParentPage>
+        <Name>Borsa-imoti.com</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Очакваме информация от сайта!</p>
+<p> </p>
+<p><a class="undefined" title="Търсачки за имоти" href="http://www.look-estates.com/page.php?n=26370&SiteID=507&view_id=26370" target="_self"><span style="color: #000000;">Виж -</span> <span style="color: #0000ff;"><strong>Търсачки за имоти</strong></span></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>23218</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-24 13:09:15</date_added>
+        <date_modified>2008-06-24 13:10:59</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30663</sort_n>
+   </pages>
+   
+   <pages>
+          <n>39014</n>
+        <an>0</an>
+        <ParentPage>28380</ParentPage>
+        <Name>Нотариуси в България</Name>
+        <PHPvars></PHPvars>
+        <textStr><p><a target="_blank" href="http://www.notary-chamber.org/" title="Нотариална камара на Република България"><strong>Нотариална камара на Република България</strong></a></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>0</imageNo>
+        <imageWidth>200</imageWidth>
+        <image_allign>1</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-10-31 16:47:59</date_added>
+        <date_modified>2008-11-03 13:46:57</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>39013</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30680</n>
+        <an>0</an>
+        <ParentPage>37587</ParentPage>
+        <Name>Някои типични грешки при покупка на жилище</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Жилищният въпрос винаги е бил сред най-важните за хората.</p>
+<p><a href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579" title="Новини за недвижими имоти"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316" title="Новини свързани с цените на надвижимите имоти"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       </strong></span><a href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316" title="Цени на недвижимите имоти"><span style="color: #008000;"><strong>СТАТИСТИКА </strong></span></a><span style="color: #ff0000;"><strong>   </strong></span><a href="http://www.look-estates.com/page.php?n=30639&SiteID=507" title="Сайтове на медии"><span style="color: #ff6600;"><strong>МЕДИИ</strong></span></a></p>
+<p> На първо място, защото човек се нужда от покрив над главата си, и на второ, защото за придобиването му се иска немалък капитал. Особено ако купувачът живее в голям град.</p>
+<p>Приемайки, че необходимата сума е налична, независимо дали е дошла по-лесно или е плод на дългогодишен труд, е важно да се подходи разумно към сделката. От руската енциклопедия за имоти Dometra.ru посочват някои типични грешки при покупката на жилище под влиянието на еуфорията да получиш ключ от собствен дом скоро.</p>
+<p><strong>Да купиш по-евтино</strong><br />Първоначално вниманието на купувачите неизменно се привлича от ниската цена на офертата. Малцина са тези, които могат да устоят на изгодно предложение като например апартамент в близост до центъра на цена като за такъв в панелен квартал в покрайнините.</p>
+<p>Редно е обаче подобни изключително изгодни цени да се проверят внимателно, защото при жилищата няма разпродажби. Ако цената е твърде ниска, е възможно да се сблъскате с неприятни последствия, като това да станете жертва на измама или пък на обстоятелствата, от които се опитва са избяга сегашният собственик на имота.</p>
+<p><strong>Да купиш по-бързо</strong><br />Често купувачите вярват на препоръката да купят възможно най-бързо, защото жилищата поскъпват бързо.</p>
+<p>Всъщност опасността от прогресивен ръст на цените често силно се преувеличава – продавачите, които пускат имот на вторичния пазар, рядко променят цената на предложението.</p>
+<p>На първичния пазар пък цената на квадратен метър в изграждащите се обекти започва да расте още от самото начало на етап строителен изкоп и може да се повишава планомерно в течение на целия строителен цикъл. Шансовете именно през този период, през който търсите жилище, цените на първичния пазар да скочат осезателно, не е толкова голям, колкото в бързината да купите първото попаднало ви жилище.</p>
+<p>Разбира се, мнозина успяват да спечелят, като купят имот бързо и евтино от продавач, който спешно се нуждае от пари. Така или иначе обаче става въпрос за голям еднократен разход, затова е добре да се прояви търпение и да се проучи пазара не само по думите на брокерите, но и по лични наблюдения, обяви в интернет или специализирани издания.</p>
+<p><strong>Да купиш, независимо от всичко</strong><br />За мнозина покупката на жилище е постъпка, граничеща с подвиг. Затова някои подхождат към сделката подобаващо, мобилизирали всички сили и готови на всякакви жертви, за да се сдобият с ключ за собствено жилище.</p>
+<p>В подобен момент купувачите могат да възприемат като несъществени някои външни недостатъци на имота, свързани не с техническото изпълнение, а подробности като местоположение, транспортни връзки и степен на развитие на инфраструктурата.</p>
+<p>Затова експертите съветват да се изчака емоциите да отшумят, за да се оцени избраното жилище по определени критерии, така че да бъдат пропуснати особености като например шумна улица под прозорците.</p>
+<p>Това далеч не е пълният списък с грешки, които може да се направят поради нетърпение или твърде голямо въодушевление. Не трябва да се забравя, че покупката на жилище не се прави всеки ден. Няма гарантирани подходи за избягване на мошеници или как да не се пропуснат скрити недостатъци на имота, но малко внимателност никога не е излишна.</p>
+<p><strong>Имоти Инвестор бг</strong></p></textStr>
+        <PHPcode></PHPcode>
+        <toplink>0</toplink>
+        <show_link>1</show_link>
+        <show_link_order>ASC</show_link_order>
+        <show_link_cols>1</show_link_cols>
+        <make_links>1</make_links>
+        <form>0</form>
+        <PageURL></PageURL>
+        <imageNo>20323</imageNo>
+        <imageWidth>400</imageWidth>
+        <image_allign>3</image_allign>
+        <ankID>0</ankID>
+        <PrintVer>1</PrintVer>
+        <SiteID>row->SiteID</SiteID>
+        <date_added>2008-06-24 14:09:21</date_added>
+        <date_modified>2008-10-06 18:56:29</date_modified>
+        <addtype>0</addtype>
+        <SecLevel>0</SecLevel>
+        <sort_n>30746</sort_n>
+   </pages>
+   
+   <pages>
+          <n>30681</n>
+        <an>0</an>
+        <ParentPage>28760</ParentPage>
+        <Name>Цените на жилищата спадат в цял свят с изключение на България</Name>
+        <PHPvars></PHPvars>
+        <textStr><p>Бумът на цените на недвижимите имоти по света вече е приключил</p>
+<p><a title="Новини за недвижими имоти" href="http://www.look-estates.com/page.php?n=26579&SiteID=507&view_id=26579"><span style="color: #ff0000;"><strong>НОВИНИ </strong></span></a><span style="color: #ff0000;"><strong>      </strong></span><a title="Новини свързани с цените на надвижимите имоти" href="http://www.look-estates.com/page.php?n=28760&SiteID=507&view_id=26316"><span style="color: #0000ff;"><strong>ЗА ЦЕНИ</strong></span></a><span style="color: #ff0000;"><strong>       </strong></span><a title="Цени на недвижимите имоти" href="http://www.look-estates.com/page.php?n=26316&SiteID=507&view_id=26316"><span style="color: #008000;"><strong>СТАТИСТИКА </strong></span></a><span style="color: #ff0000;"><strong>   <a title="Сайтове на медии" href="http://www.look-estates.com/page.php?n=30639&SiteID=507"><span style="color: #ff6600;"><strong>МЕДИИ</strong></span></a></strong></span></p>
+<p> заради действието на високата инфлация и кредитната криза. Това е заключението на „Глобал пропърти гайд", компания за анализи в сферата на недвижимите имоти.</p>
+<p>Само в 13 държави, за които регулярно се публикуват индекси за цени на жилищни имоти, има повишение на цените през годината, приключила с първото тримесечие на 2008 г.</p>
+<p>Една от тези държави е България. <strong>В номинално изражение имотите у нас са поскъпнали с 31.55%</strong>, което ни прави третият по 
