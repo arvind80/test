@@ -1,0 +1,51 @@
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script type='text/javascript' src='http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js'></script>
+<script type='text/javascript'>
+	$(document).ready(function(){
+		$("#addNew").validate();	
+		$("#allsts").click(function() {
+			if($('input[name=selectall]').is(':checked')){
+				$(".selsts").attr('checked', true);
+			}else{
+				$(".selsts").attr('checked', false);
+			}
+		});
+	});
+</script>
+	
+<form name="addNew" id="addNew" action="index.php?option=com_permission&view=add&controller=permissions&saveRecord=1" method="post">
+
+function deletePermission(){
+		   $db =& JFactory::getDBO();
+		   if(isset($_GET['delete_id']) && $_GET['delete_id']!=''){
+				$query = "delete from tcl_permission where id='".$_GET['delete_id']."'";
+		   }else{
+				   $delete=array();
+				   if(!empty($_POST)){
+						foreach($_POST['selsts'] as $val){
+							$delete[]=$val;
+						}
+						$delete=implode(',',$delete);
+						$query = "delete from tcl_permission where id in($delete)";
+					}
+			}
+		   $db->setQuery( $query );
+		   $db->query();
+	 }
+	 <tbody>
+	<form name="listform" action="index.php?option=com_permission&view=delete&controller=permissions&deleteRecord=1" method='post'>
+		<input value='submit' type='Delete All'/>
+	</form>
+	 
+	 
+	<thead>
+	<tr>
+		<th>Select All<input id="allsts" name="selectall" type='checkbox' value='checkAll'></input></th>
+		<th><a href="index.php?option=com_permission&view=permissions&controller=permissions&orderby=id">Id</a></th>
+		<th><a href="index.php?option=com_permission&view=permissions&controller=permissions&orderby=name">Name</a></th>
+		<th>IsActive</th>
+		<th><a href="index.php?option=com_permission&view=permissions&controller=permissions&orderby=cretaedat">Created At</a></th>
+		<th><a href="index.php?option=com_permission&view=permissions&controller=permissions&orderby=updatedat">Updated At</a></th>
+		<th>Actions</th>
+	</tr>
+</thead>
