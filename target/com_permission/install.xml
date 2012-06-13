@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="2.5.0">
+	<name>Permission</name>encoding
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2007-02-22</creationDate>
+	<author>Naveen Kumar</author>
+	<authorEmail>nvnkumar59@yahoo.in</authorEmail>
+	<authorUrl>http://www.example.org</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.01</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Description of the component ...</description>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+	<administration>
+		<menu link="option=com_permission" img="components/com_permission/public/images/permission.png">Permission</menu>
+		<submenu>
+			<menu view="permissions" img="components/com_permission/public/images/managepermision.png">Manage Permission</menu>
+			<menu view="groups" img="components/com_permission/public/images/managegroups.png">Manage Groups</menu>
+			<menu view="users" img="components/com_permission/public/images/users.png">Manager Users</menu>
+			<menu view="userpermissions" img="components/com_permission/public/images/links.png">Link permission to group</menu>
+		</submenu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>sql</folder>		
+			<file>admin.permission.php</file>
+			<file>install.mysql.utf8.sql</file>
+			<file>uninstall.mysql.utf8.sql</file>
+			<file>index.html</file>
+		</files>
+	</administration>
+</install>
