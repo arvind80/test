@@ -9,10 +9,23 @@ class PermissionViewPermissions extends JView{
     		}
     		if(JRequest::getVar(saveRecord)==1){
     			  if(isset($_POST['edit_id']) && $_POST['edit_id']!=''){
-    			  	$model->updatePermission();
+    			  	$result=$model->updatePermission();
+					if($result==0){
+						$success=0;
+						header("Location:index.php?option=com_permission&view=edit&controller=permissions&id=".$_POST['edit_id']."&editRecord=1&result=".$success);
+						}else{
+							$success=1;
+							header("Location:index.php?option=com_permission&view=permissions&controller=permissions&savemsg=1&result=update");
+						}
     			  }else{
-	    		  	$model->savePermission();
-	    		  	header("Location:index.php?option=com_permission&view=permissions&controller=permissions&savemsg=1");
+	    		  	$result=$model->savePermission();
+					if($result==0){
+						
+						header("Location:index.php?option=com_permission&view=add&controller=permissions&id=".$_POST['edit_id']."&editRecord=1&result=0");
+						}else{
+							
+							header("Location:index.php?option=com_permission&view=permissions&controller=permissions&savemsg=1&result=1");
+						}
     			  }
 	    	}
 	    	if(JRequest::getVar(newRecord)==1){

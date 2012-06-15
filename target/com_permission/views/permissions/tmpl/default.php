@@ -1,12 +1,12 @@
 <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-<script type='text/javascript' src='http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js'></script>
+<script type='text/javascript' src='components/com_permission/public/script/jquery.validate.min.js'></script>
 <script type='text/javascript' src='components/com_permission/public/script/jquery.tablesorter.min.js'></script>
 <link  rel="stylesheet" type="text/css" href='components/com_permission/public/css/style.css'></link>
 <script type='text/javascript'>
 	$(document).ready(function(){
 		$("#addNew").validate();
 		$("#listform").validate();
-		$("#searchRecord").validate();
+		
 		$("#adminlist").tablesorter(); 	
 		$("#allsts").click(function() {
 			if($('input[name=selectall]').is(':checked')){
@@ -24,16 +24,21 @@ defined('_JEXEC') or die('Restricted access'); ?>
 
 <?php if($this->newRecord==1 || JRequest::getVar(editRecord)=='1'){
 	?>
+<div id="stylized" class="myform">	
 <form name="addNew" id="addNew" action="index.php?option=com_permission&view=add&controller=permissions&saveRecord=1"
 	method="post">
-	<table  class="adminlist">
+	<table>
 		<tr>
 			<td><?php if(count($this->permission)==1){
-				echo'Edit Permission';
-			}else{echo 'New Permission';
+				echo'Edit Permission !';
+			}else{echo 'New Permission !';
 			}?>
 			</td>
 		</tr>
+		<tr><td><?php if(isset($_GET['result']) && $_GET['result']==0){
+				echo "<h3><p style='color:red;'>Permission Name Already Taken.Please Enter Different Permission Name!</p><h3>";
+			}?></td></tr>
+		<tr>
 		<tr>
 			<td>Name <input name="name" class="required"
 				value="<?php echo $this->permission[0][1];?>" id="name" type="text"></input>
@@ -50,7 +55,7 @@ defined('_JEXEC') or die('Restricted access'); ?>
 			</td>
 		</tr>
 		<tr>
-			<td><input type="submit"></input>&nbsp;&nbsp;<input value="Cancel"
+			<td><input type="submit" ></input>&nbsp;&nbsp;<input value="Cancel"
 				type='button' onclick='javascript:history.go(-1);'></input></td>
 		</tr>
 	</table>
@@ -61,6 +66,11 @@ defined('_JEXEC') or die('Restricted access'); ?>
 
 
 	?>
+	<?php if(isset($_GET['result'])&&$_GET['result']=='update'){
+				echo "<h3><p style='color:blue;'>Permission updated successfully!</p><h3>";
+			}elseif(isset($_GET['result'])&&$_GET['result']==1){
+				echo "<h3><p style='color:blue;'>Permission added successfully!</p><h3>";
+			}?>
 	<form name="searchRecord" id="searchRecord" action="index.php?option=com_permission&view=find&controller=permissions&searchRecord=1" method="post">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value='<?php echo $this->searchterm;?>' name="search" class="required" id="search"></input>
 				&nbsp;&nbsp;<input type="submit" value="Search"></input>&nbsp;&nbsp;
@@ -68,16 +78,14 @@ defined('_JEXEC') or die('Restricted access'); ?>
 			href="index.php?option=com_permission&view=add&controller=permissions&newRecord=1">New
 			Permission!</a>
 			</form>
-			<form name="listform" id="listform"
+			<form name="listform" id="listform" onsubmit="if(confirm('Are you sure you want to delete all selected records?')){return true}else{return false}"
 				action="index.php?option=com_permission&view=delete&controller=permissions&deleteRecord=1"
 				method='post'>
 <table id="adminlist" class="tablesorter">
 	<thead>
 		<tr>
 			<th></th>
-			<th><a
-				href="index.php?option=com_permission&view=permissions&controller=permissions&orderby=id&pagenum=<?php echo $_GET['pagenum'];?>">Id</a>
-			</th>
+			
 			<th><a
 				href="index.php?option=com_permission&view=permissions&controller=permissions&orderby=name&pagenum=<?php echo $_GET['pagenum'];?>">Name</a>
 			</th>
@@ -98,13 +106,17 @@ defined('_JEXEC') or die('Restricted access'); ?>
 
 	<?php foreach ($this->permission as $val){
 			echo "<tr><td align='center'><input class='selsts required' name='selsts[]' type='checkbox' value='{$val[0]}'/></td>";
-			echo "<td align='center'>".$val[0]."</td>";
+			
 			echo "<td align='center'>".$val[1]."</td>";
-			echo "<td align='center'>".$val[2]."</td>";
+			if($val[2]==0){
+				echo "<td align='center'>False</td>";
+			}else{
+				echo "<td align='center'>True</td>";
+			}
 			echo "<td align='center'>".$val[3]."</td>";
 			echo "<td align='center'>".$val[4]."</td>";
 			echo "<td align='center'><a href='index.php?option=com_permission&view=edit&controller=permissions&id={$val[0]}&editRecord=1'>Edit</a>";
-			echo "&nbsp;&nbsp;<a href='index.php?option=com_permission&view=delete&controller=permissions&delete_id={$val[0]}&deleteRecord=1'>Delete</a></td></tr>";
+			echo "&nbsp;&nbsp;<a onclick=\"if(confirm('Are you sure you want to delete it?')){return true}else{return false}\" href='index.php?option=com_permission&view=delete&controller=permissions&delete_id={$val[0]}&deleteRecord=1'>Delete</a></td></tr>";
 	
 	}?>
 </tbody>
@@ -162,4 +174,5 @@ defined('_JEXEC') or die('Restricted access'); ?>
 	</tr>
 </table>
 </form>
+<div>
 <?php }?>
