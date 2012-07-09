@@ -140,11 +140,14 @@ defined('_JEXEC') or die('Restricted access'); ?>
 		</tr>
 	</thead>
 	<tbody>
+	<?php if(!empty($this->user)){?>
 <p style="padding:5px 0 0 14px;">Select All<input id="allsts" name="selectall"  type='checkbox'
 				value='checkAll'></input><input value='Delete All' type='submit' /></p>
 
 
-	<?php foreach ($this->user as $val){
+	<?php 
+	}
+	foreach ($this->user as $val){
 			echo "<tr><td align='center'><input class='selsts required' name='selsts[]' type='checkbox' value='{$val[0]}'/></td>";
 			
 			echo "<td align='center'>".$val[1]."</td>";

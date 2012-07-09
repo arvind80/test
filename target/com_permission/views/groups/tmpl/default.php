@@ -1,16 +1,28 @@
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-<script type='text/javascript' src='components/com_permission/public/script/jquery.validate.min.js'></script>
-<script type='text/javascript' src='components/com_permission/public/script/jquery.tablesorter.min.js'></script>
-<link  rel="stylesheet" type="text/css" href='components/com_permission/public/css/style.css'></link>
-<script type='text/javascript' src='components/com_permission/public/script/jquery.fancybox.js'></script>
-<link  rel="stylesheet" type="text/css" href='components/com_permission/public/css/jquery.fancybox.css'></link>
+<script type='text/javascript'
+	src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+	<script
+	type='text/javascript'
+	src='components/com_permission/public/script/jquery.fancybox.js'></script>
+<script
+	type='text/javascript'
+	src='components/com_permission/public/script/jquery.validate.min.js'></script>
+<script
+	type='text/javascript'
+	src='components/com_permission/public/script/jquery.tablesorter.min.js'></script>
+<link
+	rel="stylesheet" type="text/css"
+	href='components/com_permission/public/css/style.css'></link>
+
+<link
+	rel="stylesheet" type="text/css"
+	href='components/com_permission/public/css/jquery.fancybox.css'></link>
 <script type='text/javascript'>
 	$(document).ready(function(){
 		$("#addNew").validate();
 		$("#listform").validate();
-		
-		$("#adminlist").tablesorter(); 	
 		$('.fancybox').fancybox();
+		$("#adminlist").tablesorter(); 	
+		
 		$("#allsts").click(function() {
 			if($('input[name=selectall]').is(':checked')){
 				$(".selsts").attr('checked', true);
@@ -21,129 +33,141 @@
 		
 	});
 </script>
-
 <?php
 defined('_JEXEC') or die('Restricted access'); ?>
 
-<?php 
+<?php
 
 if(!empty($this->view_users_in_group)){
 	?>
-	
-	<table style="width:600px;!important" id="adminlist" class="tablesorter">
-			<tr><thead>
-				<th>Name</th>
-				<th>Username</th>
-				<th>Email</th>
-				
-			</thead></tr>
-		<tbody><?php
+<style type="text/css">
+#border-top.h_blue {
+	display: none;
+}
+
+#header-box {
+	display: none;
+}
+
+#content-box {
+	width: 50.85%;
+}
+</style>
+<table style="width: 600px;" id="adminlist" class="tablesorter">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Username</th>
+			<th>Email</th>
+
+		</tr>
+	</thead>
+	<tbody>
+	<?php
 	foreach($this->view_users_in_group as $val){
 		?>
-		
-			<tr>
-				<td><?php echo $val[1];?></td><td><?php echo $val[3];?></td><td><?php echo $val[4];?></td>
-			</tr>
-		
-			
+		<tr>
+			<td><?php echo $val[1];?></td>
+			<td><?php echo $val[3];?></td>
+			<td><?php echo $val[4];?></td>
+		</tr>	
 		<?php
 	}
 	?>
 	</tbody>
-		</table><?php
+</table>
+
+<?php
 }
 elseif($this->newRecord==1 || JRequest::getVar(editRecord)=='1'){
 	?>
-<div id="stylized" class="myform">	
-<form name="addNew" id="addNew" action="index.php?option=com_permission&view=add&controller=groups&saveRecord=1"
-	method="post">
-	<table id="adminlist">
-		<tr>
-			<td><?php if(count($this->group)==1){
-				echo'Edit Group!';
-			}else{echo 'Add Group!';
-			}?>
-			</td>
-		</tr>
-		<tr><td><?php if(isset($_GET['result'])){
-				echo "<h3><p style='color:red;'>Group Name Already Taken.Please Enter Different Group Name!</p><h3>";
-			}?></td></tr>
-		<tr>
-			<td>Name <input name="name" class="required"
-				value="<?php echo $this->group[0][1];?>" id="name" type="text"></input>
-			</td>
-		</tr>
-		<tr>
-			<td>Assign Users To This Group&nbsp;&nbsp;&nbsp;
-				<div style="overflow:auto;min-height:20px;">
-				<?php 
+<div id="stylized" class="myform">
+	<form name="addNew" id="addNew"
+		action="index.php?option=com_permission&view=add&controller=groups&saveRecord=1"
+		method="post">
+		<table id="adminlist">
+			<tr>
+				<td><?php if(count($this->group)==1){
+					echo'Edit Group!';
+				}else{echo 'Add Group!';
+				}?>
+				</td>
+			</tr>
+			<tr>
+				<td><?php if(isset($_GET['result'])){
+					echo "<h3><p style='color:red;'>Group Name Already Taken.Please Enter Different Group Name!</p><h3>";
+				}?>
+				</td>
+			</tr>
+			<tr>
+				<td>Name <input name="name" class="required"
+					value="<?php echo $this->group[0][1];?>" id="name" type="text"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Assign Users To This Group&nbsp;&nbsp;&nbsp;
+					<div style="overflow: auto; min-height: 20px;">
+					<?php
 					//print_r($this->users);
 					foreach($this->users as $val){
-						
+
 						if(isset($this->fetchUsersBelongToGroup)){
 							$checked=0;
 							foreach($this->fetchUsersBelongToGroup as $userBelongToGroup){
-								
+
 								if($userBelongToGroup[0]==$val[0]){
 									$checked='checked';
 									break;
 								}
 							}
 						}
-					   echo "<p><input value='$val[0]' 
+						echo "<p><input value='$val[0]'
 					  type='checkbox' name='users[]' $checked  />$val[1]<p>";
 					}
-				?>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td>
-					Choose Permissions
-					<div style="overflow:auto;min-height:20px;">
-
-				<?php 
+					?>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Choose Permissions
+					<div style="overflow: auto; min-height: 20px;">
+					<?php
 					//print_r($this->users);
 					foreach($this->permissions as $val){
 						if(isset($this->fetchUsersBelongToGroup)){
 							$checked=0;
 							foreach($this->fetchPermissionsBelongToGroup as $fetchPermissionsBelongToGroup){
-								
+
 								if($fetchPermissionsBelongToGroup[0]==$val[0]){
 									$checked='checked';
 									break;
 								}
 							}
 						}
-					    echo "<p><input value='$val[0]' 
+						echo "<p><input value='$val[0]'
 					  type='checkbox' $checked name='permissions[]' />$val[1]<p>";
 					}
 					?>
 					</div>
-			</td>
-		</tr>
-		
-		<tr>
-			<td>Isactive<input value="1" name="isActive" type="checkbox"
-
-			<?php if($this->group[0][2]==1){echo'checked'; }?>></input></td>
-		</tr>
-		<tr>
-			<td><input name="edit_id"
-				value="<?php echo $this->group[0][0];?>" type='hidden' value=""></input>
-			</td>
-		</tr>
-		<tr>
-			<td><input type="submit"></input>&nbsp;&nbsp;<input value="Cancel"
-				type='button' onclick='javascript:history.go(-1);'></input></td>
-		</tr>
-	</table>
-</form>
-
+				</td>
+			</tr>
+			<tr>
+				<td>Isactive<input value="1" name="isActive" type="checkbox"
+				<?php if($this->group[0][2]==1){echo'checked'; }?>></input></td>
+			</tr>
+			<tr>
+				<td><input name="edit_id" value="<?php echo $this->group[0][0];?>"
+					type='hidden' value=""></input>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit"></input>&nbsp;&nbsp;<input value="Cancel"
+					type='button' onclick='javascript:history.go(-1);'></input></td>
+			</tr>
+		</table>
+	</form>
 <?php
 }else{
-
-
 	?>
 	<?php if(isset($_GET['result'])&&$_GET['result']=='update'){
 				echo "<h3><p style='color:blue;'>Group updated successfully!</p><h3>";
@@ -157,9 +181,11 @@ elseif($this->newRecord==1 || JRequest::getVar(editRecord)=='1'){
 			href="index.php?option=com_permission&view=add&controller=groups&newRecord=1">Add
 			Group!</a>
 			</form>
+			
 			<form name="listform" id="listform" onsubmit="if(confirm('Are you sure you want to delete all selected records?')){return true}else{return false}"
 				action="index.php?option=com_permission&view=delete&controller=groups&deleteRecord=1"
 				method='post'>
+			
 <table id="adminlist" class="tablesorter">
 	<thead>
 		<tr>
@@ -180,11 +206,13 @@ elseif($this->newRecord==1 || JRequest::getVar(editRecord)=='1'){
 		</tr>
 	</thead>
 	<tbody>
+<?php if(!empty($this->group)){?>
 <p style="padding:5px 0 0 14px;">Select All<input id="allsts" name="selectall"  type='checkbox'
 				value='checkAll'></input><input value='Delete All' type='submit' /></p>
 
 
 	<?php 
+}
 	if(!empty($this->group)){
 	foreach ($this->group as $val){
 			echo "<tr><td align='center'><input class='selsts required' name='selsts[]' type='checkbox' value='{$val[0]}'/></td>";
@@ -195,7 +223,7 @@ elseif($this->newRecord==1 || JRequest::getVar(editRecord)=='1'){
 			}else{
 				echo "<td align='center'>True</td>";
 			}
-			echo "<td align='center'>".$val[2]."</td>";
+			
 			if($val[5]==0)
 			{
 				echo "<td align='center'>".$val[5]."</td>";
@@ -264,6 +292,11 @@ elseif($this->newRecord==1 || JRequest::getVar(editRecord)=='1'){
 	</td>
 	</tr>
 </table>
+
 </form>
+			
 </div>
+
+
+
 <?php }?>

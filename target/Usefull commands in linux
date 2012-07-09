@@ -1,0 +1,92 @@
+Usefull Linus commands:-
+********************************************apache server********************************
+	Restart apache server
+		sudo /etc/init.d/apache2 restart
+		
+	Edit php.ini file
+
+	/etc/php5/apache2$ gedit php.ini
+********************************************sqlite***************************************
+Accessing sqlite from terminal in linux:-
+
+$ sqlite3
+(.tables or .databases)
+Accessing Sqlite rom termminal in a rail application
+
+$rails dbconsole
+
+Create file in ubuntu 
+
+$touch abc.txt
+$gedit abc.txt
+$locate abc.txt
+
+
+*****************************************mongo-db***************************************
+$sudo apt-get install mongodb-clients
+$sudo apt-get install mongodb-server
+sudo apt-get install mongodb
+To enable rest support in a mongodb 
+	sudo gedit /etc/mongodb.conf
+	adding this line:- rest = true
+	sudo restart mongodb
+
+start the mongo db server
+$mongod 
+start the mongo db with rest service
+
+Accessing mongo db from the terminal
+mongo
+
+Mongodb log file path:-
+	/var/log/mongodb/mongodb.log
+
+Mongodb lock file path:-
+sudo gedit /var/lib/mongodb/mongod.lock
+
+$sudo start mongodb ,$mongod --rest
+$sudo stop mongodb
+
+mongodb in browser
+http://localhost:28017/
+http://www.mongodb.org/display/DOCS/SQL+to+Mongo+Mapping+Chart
+http://www.mongodb.org/display/DOCS/Ruby+Language+Center
+http://www.mongodb.org/display/DOCS/Http+Interface
+******************************************ruby language concept******************************
+Unicorn:-
+	Unicorn is a cool new Ruby HTTP server, and we like it because it’s Unix.
+    Unicorn is an HTTP server for Rack applications designed to only serve fast clients on low-latency, 
+    high-bandwidth connections and take advantage of features in Unix/Unix-like kernels.
+
+Nginx:- 
+	nginx [engine x] is an HTTP and reverse proxy server, as well as a mail proxy server, 
+	written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, 
+	Mail.Ru, VKontakte, and Rambler. According to Netcraft nginx served or proxied 10.09% busiest sites in April 2012. 
+	Here are some of the success stories: FastMail.FM, Wordpress.com.
+ 
+
+
+/***************************terms in ruby***************************************************
+Application Server:- mongrel,phussion passenger,mod_rails,jruby,fast cgi,unicorn
+
+Web Server:- apache2 ,nginx,lighttpd,ha-proxy
+
+Rvm:-ruby version management.
+
+Capistrano:-Capistrano is a developer tool for deploying web applications. 
+			It is typically installed on a workstation, and used to deploy code from your source code management (SCM) to one or more servers.
+****************************************************git hub******************************************
+$ git clone git@github.com:jpsilvashy/recipes.git
+$ git config --global github.user naveenkbs
+$ git config --global github.token 94c81dc89438aa1dd2c2533089a260cd
+*****************************************rails usefull commands****************************
+# nokogiri requirements
+sudo apt-get install libxslt-dev libxml2-dev
+sudo gem install nokogiri
+
+gem update --system
+bundle update
+rake spec:models
+*****************************************subversion***************************************
+$which svn
+/usr/bin/svn
